@@ -2,4 +2,4 @@
 historical_profitability_variants,早期 ROE 变体筛选,/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/02_profitability_variant_comparison.csv,True
 ttm_main_factor_pool,TTM 盈利因子主池,/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/05_ttm_factor_effectiveness_summary.csv,True
 stable_report_components,稳定 ROIC/RONOA 组件代理,/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/05_stable_profitability_effectiveness_summary.csv,True
-integrated_report_structure,四组件等权综合盈利代理,/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/05_integrated_profitability_effectiveness_summary.csv,True
+integrated_report_structure,基于研报四个底层因子的等权透明实现,/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/05_integrated_profitability_effectiveness_summary.csv,True

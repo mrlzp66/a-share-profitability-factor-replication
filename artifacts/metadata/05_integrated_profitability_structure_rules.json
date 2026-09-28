@@ -139,9 +139,10 @@
     "universe": "dynamic_csi800_research_mask",
     "github_export_allowed_for_individual_stock_panels": false
   },
-  "interpretation": "This is a transparent structural proxy for the report's integrated profitability factor. It is not claimed to be an exact point-by-point reproduction.",
-  "coverage_caveat": "The strict all-component intersection inherits the lower availability of the stable RONOA proxy. Results must be reported as a low-coverage structural sensitivity test.",
-  "anti_overfitting_rule": "All four weights are fixed at 25%; no out-of-sample optimization or component selection is allowed.",
+  "interpretation": "This is an equal-weight transparent implementation based on four source-report components. It is not the source report's original two-level weighted composite profitability factor and is not claimed to be an exact reproduction.",
+  "source_report_weight_boundary": "The source report first equally aggregates A/B/C and then equally combines that aggregate with FCFFIC, implying 1/6, 1/6, 1/6, 1/2. This implementation instead uses 25% for each component.",
+  "coverage_caveat": "The strict all-component intersection inherits the lower availability of the stable RONOA proxy. Results must be reported as a low-coverage equal-weight implementation sensitivity test.",
+  "anti_overfitting_rule": "All four implementation weights are fixed at 25%; no out-of-sample optimization or component selection is allowed.",
   "export_policy": {
     "individual_stock_factor_values_saved_to_artifacts": false,
     "individual_stock_factor_values_saved_only_to_local_cache": true

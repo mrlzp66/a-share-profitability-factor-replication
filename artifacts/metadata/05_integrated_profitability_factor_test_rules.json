@@ -1,5 +1,6 @@
 {
   "factor_name": "integrated_profitability_structure_proxy_strict",
+  "implementation_label": "基于研报四个底层因子的等权透明实现；不是研报原始两层权重公式",
   "fixed_component_weights": {
     "stable_delevered_roe": 0.25,
     "stable_roic_proxy": 0.25,
@@ -14,6 +15,6 @@
   "last_available_date": "2025-12-31",
   "in_sample_period": "2019-08-30 to 2022-12-31",
   "out_of_sample_period": "2023-01-01 to 2025-12-31",
-  "anti_overfitting_rule": "No component weights, components, or out-of-sample dates are changed after observing results.",
+  "anti_overfitting_rule": "No equal-weight implementation components, weights, or out-of-sample dates are changed after observing results. The existing results do not validate or refute the source report's original two-level weights.",
   "individual_stock_level_data_saved_to_artifacts": false
 }

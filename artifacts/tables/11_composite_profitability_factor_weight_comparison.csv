@@ -1,0 +1,5 @@
+component,source_report_name,source_original_implied_weight,current_equal_weight_implementation,comparison_note
+stable_delevered_roe,线性剥离杠杆后稳定的 ROE,0.1666666667,0.25,研报先在利润表因子汇总层对前三项等权
+stable_roic_proxy,稳定的 ROIC,0.1666666667,0.25,研报先在利润表因子汇总层对前三项等权
+stable_ronoa_proxy,稳定的 RONOA,0.1666666667,0.25,研报先在利润表因子汇总层对前三项等权
+fcffic_reconstructed,FCFFIC,0.5,0.25,研报在第二层将 FCFFIC 与利润表因子汇总等权

@@ -595,7 +595,7 @@ def run_profitability_research_synthesis(
         },
         {
             "source_id": "integrated_report_structure",
-            "source_label": "四组件等权综合盈利代理",
+            "source_label": "基于研报四个底层因子的等权透明实现",
             "filename": "05_integrated_profitability_effectiveness_summary.csv",
             "factor_columns": ["factor_name"],
             "research_scope": "low_coverage_structural_sensitivity",
@@ -780,18 +780,18 @@ def run_profitability_research_synthesis(
         "stable_roic_ttm_proxy": "稳定 ROIC 代理",
         "stable_ronoa_ttm_proxy": "稳定 RONOA 代理",
         "integrated_profitability_structure_proxy_strict": (
-            "四组件等权综合盈利代理"
+            "综合盈利因子等权透明实现"
         ),
     }
 
     role_map = {
         "negative_roe_volatility": "候选盈利稳定性组件",
-        "stable_delevered_roe": "研报结构组件",
+        "stable_delevered_roe": "研报底层因子组件",
         "fcffic_reconstructed_strict": "候选现金流盈利组件",
         "stable_roic_ttm_proxy": "研报稳定 ROIC 组件代理",
         "stable_ronoa_ttm_proxy": "低覆盖率 RONOA 敏感性组件",
         "integrated_profitability_structure_proxy_strict": (
-            "低覆盖率研报结构复现代理"
+            "低覆盖率等权透明实现"
         ),
     }
 

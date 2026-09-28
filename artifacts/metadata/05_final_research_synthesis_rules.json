@@ -22,7 +22,7 @@
     },
     {
       "source_id": "integrated_report_structure",
-      "source_label": "四组件等权综合盈利代理",
+      "source_label": "基于研报四个底层因子的等权透明实现",
       "source_file": "/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/05_integrated_profitability_effectiveness_summary.csv",
       "file_found": true
     }

@@ -1,8 +1,8 @@
 {
   "strategy_name": "integrated_profitability_structure_proxy_q5_long_only",
   "factor_source": "05_integrated_profitability_structure_proxy.pkl",
-  "factor_definition": "固定四组件各 25%：稳定去杠杆 ROE、稳定 ROIC 代理、稳定 RONOA 代理、重构 FCFFIC；组合后行业和对数市值中性化。",
-  "strategy_scope": "低覆盖率研报结构代理的执行可行性检验，不是事后挑选 FCFFIC 或盈利稳定性的新组合。",
+  "factor_definition": "基于研报四个底层因子的等权透明实现：稳定去杠杆 ROE、稳定 ROIC 代理、稳定 RONOA 代理、重构 FCFFIC 各 25%；组合后行业和对数市值中性化。该实现不是研报原始两层权重公式。",
+  "strategy_scope": "低覆盖率等权透明实现的执行可行性检验，不是对研报原始两层权重公式的验证，也不是事后挑选 FCFFIC 或盈利稳定性的新组合。",
   "universe": "动态中证 800",
   "benchmark_index": "000906.XSHG",
   "portfolio_rule": "每期选择因子最高 20% 股票，等权做多",

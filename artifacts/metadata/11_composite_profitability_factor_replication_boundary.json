@@ -1,0 +1,48 @@
+{
+  "correction_type": "replication_boundary_clarification",
+  "source_factor_official_name": "综合盈利因子",
+  "source_reference": {
+    "publisher": "招商证券",
+    "report_title": "基本面量化系列研究之四：企业盈利能力评价指标的演进与优化",
+    "report_date": "2025-11-21",
+    "relevant_section": "7.2",
+    "verification_pages_in_local_pdf": [1, 25, 26, 27, 35],
+    "redistributed_with_repository": false
+  },
+  "source_report_components": [
+    "线性剥离杠杆后稳定的 ROE",
+    "稳定的 ROIC",
+    "稳定的 RONOA",
+    "FCFFIC"
+  ],
+  "source_report_two_level_construction": {
+    "profit_statement_aggregate": "(A + B + C) / 3",
+    "composite_profitability_factor": "0.5 * profit_statement_aggregate + 0.5 * FCFFIC",
+    "implied_component_weights": {
+      "stable_delevered_roe": 0.1666666667,
+      "stable_roic": 0.1666666667,
+      "stable_ronoa": 0.1666666667,
+      "fcffic": 0.5
+    }
+  },
+  "current_project_implementation": {
+    "public_label": "基于研报四个底层因子的等权透明实现",
+    "internal_factor_id": "integrated_profitability_structure_proxy_strict",
+    "component_weights": {
+      "stable_delevered_roe": 0.25,
+      "stable_roic_proxy": 0.25,
+      "stable_ronoa_proxy": 0.25,
+      "fcffic_reconstructed": 0.25
+    },
+    "weight_rule": "equal_weight_average_of_four_pre_neutralized_component_panels",
+    "strict_intersection_rule": "all four component values must be finite; no stock-level imputation"
+  },
+  "interpretation_boundary": {
+    "current_results_apply_only_to": "the current four-component equal-weight transparent implementation",
+    "current_results_do_not_validate_or_refute": "the source report's original two-level weighted composite profitability factor",
+    "current_frozen_status": "candidate_not_confirmed",
+    "original_weight_backtest_run_in_this_release": false,
+    "prohibited_claim": "Do not describe the existing 25% each results as a strict replication, validation, or rejection of the source report's original composite factor."
+  },
+  "history_preservation": "Historical 25% component weights and existing results remain unchanged. This metadata corrects their interpretation and naming only."
+}

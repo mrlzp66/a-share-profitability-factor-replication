@@ -1,9 +1,9 @@
 {
   "package_name": "a-share-profitability-factor-replication-v0.1",
-  "created_at_utc": "2026-09-28T11:48:24.201370+00:00",
+  "created_at_utc": "2026-09-28T16:23:12.082309+00:00",
   "research_status": "candidate_not_confirmed",
-  "file_count_excluding_manifest": 235,
-  "total_size_bytes_excluding_manifest": 9890436,
+  "file_count_excluding_manifest": 240,
+  "total_size_bytes_excluding_manifest": 10069355,
   "excluded_categories": [
     "data",
     "cache",
@@ -17,16 +17,6 @@
       "path": ".gitignore",
       "size_bytes": 344,
       "sha256": "fec4b8e6a702ffce02b1963b5c72ce31ec4a845890416ccdd48c4e0dcfd49cfc"
-    },
-    {
-      "path": "ENVIRONMENT.md",
-      "size_bytes": 1687,
-      "sha256": "915db3f5ac4841a0180b74c4c22d865c8f9f44060813aec9f581727bcde3e1fa"
-    },
-    {
-      "path": "README.md",
-      "size_bytes": 3016,
-      "sha256": "a311ccaa7f0490c728ed03b1c89a4ba288320fcdef7f2baff3c512dc56587d41"
     },
     {
       "path": "artifacts/figures/01_csi800_universe_size.png",
@@ -239,6 +229,16 @@
       "sha256": "aa1320f78ac821352b717643e0faa8cccbc523b96c87b01e8f697a930078e7ab"
     },
     {
+      "path": "artifacts/figures/11_composite_profitability_factor_construction.png",
+      "size_bytes": 85377,
+      "sha256": "61d4fa635ec7ab5483c0590d6ddbe55c004b10c408c9fdcebcf53a985019977a"
+    },
+    {
+      "path": "artifacts/figures/11_composite_profitability_factor_weight_comparison.png",
+      "size_bytes": 61642,
+      "sha256": "e8239d632e078097636e2e32fb596afba03e25f186fab6fbbe5e21a2053fea21"
+    },
+    {
       "path": "artifacts/metadata/01_factor_construction_rules.json",
       "size_bytes": 501,
       "sha256": "a8bcfa60579b58a5db89d3fdf737c5d5980521cab11027a1c2b8356d448dbeeb"
@@ -335,8 +335,8 @@
     },
     {
       "path": "artifacts/metadata/05_final_research_synthesis_rules.json",
-      "size_bytes": 1672,
-      "sha256": "1f629075e4c47d6743bfe28d0bcfe245978a1592701b2ca68996c1af1214f8b0"
+      "size_bytes": 1691,
+      "sha256": "9ef23f0ea61c0d030c39d97c79ca5373a27e3fa90d69fdcaebd95f1fb03ab945"
     },
     {
       "path": "artifacts/metadata/05_forward_return_20d_rules.json",
@@ -350,8 +350,8 @@
     },
     {
       "path": "artifacts/metadata/05_integrated_profitability_factor_test_rules.json",
-      "size_bytes": 970,
-      "sha256": "97d01f9d484d11583d771aa98466ef8e3588c020882d4e03628e9a488359c048"
+      "size_bytes": 1204,
+      "sha256": "fe7be0a84dac801b98af3be50e9664c861ebe4a2e50f3547eec843c7119512e1"
     },
     {
       "path": "artifacts/metadata/05_integrated_profitability_research_decision_rules.json",
@@ -360,8 +360,8 @@
     },
     {
       "path": "artifacts/metadata/05_integrated_profitability_structure_rules.json",
-      "size_bytes": 4026,
-      "sha256": "fee05943e85bf49765199488f91a03b16c62a28c35432e24d81c922da5fdb934"
+      "size_bytes": 4363,
+      "sha256": "7fd383c126758f72c58e668e5f7f008c8564d9a76c590a65cfa810900de7c56f"
     },
     {
       "path": "artifacts/metadata/05_neutralization_context_rules.json",
@@ -430,8 +430,8 @@
     },
     {
       "path": "artifacts/metadata/06_integrated_profitability_strategy_specification.json",
-      "size_bytes": 1412,
-      "sha256": "55b105ae6107234594b375c8bfb28da5b8f4f49cdee8229683f088ecc53df71b"
+      "size_bytes": 1552,
+      "sha256": "ba25d22db216eb867521aa60185d33a6b03fa0b045e16110dd38b3c94adaa075"
     },
     {
       "path": "artifacts/metadata/07_rqalpha_oos_q5_backtest_rules.json",
@@ -467,6 +467,11 @@
       "path": "artifacts/metadata/10_final_report_context.json",
       "size_bytes": 548,
       "sha256": "935331cf95ec1909b47a55a9d4681c40662e39c0c33c3095dd2d56955f6d36e0"
+    },
+    {
+      "path": "artifacts/metadata/11_composite_profitability_factor_replication_boundary.json",
+      "size_bytes": 2234,
+      "sha256": "e2f8a56a8e4258e8feee0bcc47b388756d266043c2fdc7a458c9de0c3040ea8a"
     },
     {
       "path": "artifacts/tables/01_industry_query_log.csv",
@@ -635,13 +640,13 @@
     },
     {
       "path": "artifacts/tables/05_final_research_evidence_register.csv",
-      "size_bytes": 4613,
-      "sha256": "4521ba6a1b435c7ccab4d2c3bc57c7c20037964d276719b6178caa6af63fcbd5"
+      "size_bytes": 4628,
+      "sha256": "c7f3fc089c150fec539bcc534d0c77c375d97a76e221fd1191cc93087589e151"
     },
     {
       "path": "artifacts/tables/05_final_research_source_inventory.csv",
-      "size_bytes": 785,
-      "sha256": "f590ee8f1d5779b67db51cddfc0f59a0b10f0f7c3436143f303cf4940bee5198"
+      "size_bytes": 803,
+      "sha256": "d98a97210b06e8a8f487e6e10139b9dc4842e81395098e1504e6511524bf64ee"
     },
     {
       "path": "artifacts/tables/05_forward_return_20d_coverage.csv",
@@ -680,8 +685,8 @@
     },
     {
       "path": "artifacts/tables/05_integrated_profitability_component_weights.csv",
-      "size_bytes": 376,
-      "sha256": "ef22ec59ce599383ff64afa3ceee84f38d6c1953efd689aa7d2b5a87ba922c94"
+      "size_bytes": 416,
+      "sha256": "e0a5f824cc65e017e3851ca607fcacb86765e4e671da9ae123e2b841c1820d47"
     },
     {
       "path": "artifacts/tables/05_integrated_profitability_construction_audit.csv",
@@ -1020,8 +1025,8 @@
     },
     {
       "path": "artifacts/tables/08_rqalpha_oos_strategy_research_decision.csv",
-      "size_bytes": 359,
-      "sha256": "d72473328c782d2738e54bcc45bba6e2b48fec10b5125271af467a262324c92d"
+      "size_bytes": 413,
+      "sha256": "d6fba21818da5e9b0f229a36ab30b321537acbb2494abcd360114cabd0ac5f47"
     },
     {
       "path": "artifacts/tables/08_rqalpha_oos_three_portfolio_daily_nav.csv",
@@ -1094,29 +1099,44 @@
       "sha256": "31ec29888d595b26f8ec6eb61ae6192f2420175638707f1ebf915a48521a768c"
     },
     {
+      "path": "artifacts/tables/11_composite_profitability_factor_weight_comparison.csv",
+      "size_bytes": 552,
+      "sha256": "8a0e0343cfc6f5f588dd91a9571718f59aee4f85b08b87afadb1bba0c9258d7b"
+    },
+    {
       "path": "docs/05_final_research_summary.md",
-      "size_bytes": 8415,
-      "sha256": "dcbbc74008475a9b538d4a409ef37bd934924fa450c24cb8748a34fca6be9594"
+      "size_bytes": 8461,
+      "sha256": "df1e8aecae06550309b1ac990d0a4169347f06e5883584987f177369cd5a0413"
     },
     {
       "path": "docs/09_RESEARCH_PROTOCOL.md",
-      "size_bytes": 5139,
-      "sha256": "da58a93c97d843c7331fe48c6ba78571042265c76febaf8e80b33c4df8093ee2"
+      "size_bytes": 5476,
+      "sha256": "5059d820e85948d8c60b0ebb80a9d93ccb2f5fda9f6818c6c51fd1e476a1d45c"
     },
     {
       "path": "docs/10_FINAL_RESEARCH_REPORT.md",
-      "size_bytes": 7415,
-      "sha256": "b55bdcde8a2fd911d6ffa870d793070087e39fe9193ebceeca0112577c8ec91c"
+      "size_bytes": 7991,
+      "sha256": "6c82822c2c7b4d7b369b8464460da78b572374ebadd132184504cf53a7ec57b8"
+    },
+    {
+      "path": "docs/11_COMPOSITE_PROFITABILITY_FACTOR_EQUAL_WEIGHT_IMPLEMENTATION.md",
+      "size_bytes": 10717,
+      "sha256": "ee175a93fba45ea81ad6e2afa8b7d17aad0d6901aa5bc4a4ce864ddd396706fc"
+    },
+    {
+      "path": "ENVIRONMENT.md",
+      "size_bytes": 1687,
+      "sha256": "915db3f5ac4841a0180b74c4c22d865c8f9f44060813aec9f581727bcde3e1fa"
     },
     {
       "path": "lib/profitability_diagnostics.py",
-      "size_bytes": 33489,
-      "sha256": "3e7dd2aea8f3d7e0304b82ce5206d7362ce099e5b94d43991f19a5ac1453ed00"
+      "size_bytes": 33510,
+      "sha256": "77b8da1b3a74a16f9c954571bc6f047fc8031e956c6f62bbbf55ac51f72cf0cb"
     },
     {
       "path": "lib/profitability_research_utils.py",
-      "size_bytes": 33318,
-      "sha256": "9e0fc352b80d9f6cace9e5208f9bbfc14401c7eb2212b82ce8104287c5f4088c"
+      "size_bytes": 33324,
+      "sha256": "efa2cc05935eff8bd9c99b743751729cd753e399f3aa7c16fc6a9f7f2a1b1502"
     },
     {
       "path": "lib/research_statistics.py",
@@ -1140,8 +1160,8 @@
     },
     {
       "path": "notebooks/00_project_bootstrap.ipynb",
-      "size_bytes": 47287,
-      "sha256": "b5dd41a4cc05ef67c5c140303c638b12d97f6427ff2f0083c3aeb73ab5063bc0"
+      "size_bytes": 48447,
+      "sha256": "dec4724efd9ea3e0de75ec2c72e1b00c1a3cee1d2b7361193a50ffe597713fca"
     },
     {
       "path": "notebooks/01_stable_roe.ipynb",
@@ -1160,13 +1180,13 @@
     },
     {
       "path": "notebooks/05_roa_roic_ronoa_ttm.ipynb",
-      "size_bytes": 306162,
-      "sha256": "1258710b127fc7b8af8f4bd4193a45b323756e186325aed788577be6815ad89f"
+      "size_bytes": 314179,
+      "sha256": "a645cbc51ceeccd9787c8b8459ade4ca9037ea916839817dd795d7fa0484521b"
     },
     {
       "path": "notebooks/06_strategy_validation.ipynb",
-      "size_bytes": 130087,
-      "sha256": "8a14106f13377c017127ce49071781c938f6f3c15e5ff7f5d1a5edd426710f59"
+      "size_bytes": 133671,
+      "sha256": "389188bb3e2b734bfebd318bc73a7456d6fa56547f7baf365457e15c60131f46"
     },
     {
       "path": "notebooks/07_rqalpha_strategy_backtest.ipynb",
@@ -1175,18 +1195,23 @@
     },
     {
       "path": "notebooks/08_rqalpha_strategy_comparison.ipynb",
-      "size_bytes": 22990,
-      "sha256": "f71f7914ca0a00e237290360b482362dc95fa52728f0f913f06eb0ecac776295"
+      "size_bytes": 23695,
+      "sha256": "2f05e55450e128dfdfb823ad84ef52c838705775478f0211656b785599fb4ea0"
     },
     {
       "path": "notebooks/09_research_robustness_and_closure.ipynb",
-      "size_bytes": 70330,
-      "sha256": "57f7d815e9cd1e61d10cb84929fd1d3bfa9abc7581df3f92c8b9e41ebd1babba"
+      "size_bytes": 72111,
+      "sha256": "bcfd0bb71259a4e88ab14f163e5d70b6fb02c3ae9682c033c29ffda32d6476b8"
     },
     {
       "path": "notebooks/10_final_research_report.ipynb",
-      "size_bytes": 24222,
-      "sha256": "ed8050653a36ba4fff38920e78781dc49952c044b258e009bae95358646b0eaf"
+      "size_bytes": 24908,
+      "sha256": "c690617e1402044d9d4e518bc340bf735df4928e9e92cc4b85826d77279324db"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3637,
+      "sha256": "36a558fe24933ac0e7709d8efe33989307a4f8b369449a9019b7d51a9258c39d"
     }
   ]
 }

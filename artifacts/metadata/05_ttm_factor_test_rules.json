@@ -1,0 +1,22 @@
+{
+  "factor_test_pool": [
+    "roa_reconstructed_strict",
+    "roa_vendor_reference",
+    "roic_reconstructed_strict",
+    "roic_vendor_reference",
+    "fcffic_reconstructed_strict"
+  ],
+  "return_label": "forward_return_20d",
+  "ic_definition": "Cross-sectional Pearson correlation between factor at T and forward 20-trading-day return.",
+  "rank_ic_definition": "Cross-sectional Spearman correlation between factor at T and forward 20-trading-day return.",
+  "grouping": "Equal-count quintiles. Q1 is the lowest factor group and Q5 is the highest factor group.",
+  "portfolio_return": "Equal-weighted gross forward return within each quintile.",
+  "high_minus_low": "Q5 return minus Q1 return.",
+  "sample_split": {
+    "in_sample": "2016-01-01 to 2022-12-31",
+    "out_of_sample": "2023-01-01 to 2025-12-31"
+  },
+  "transaction_costs_included": false,
+  "execution_constraints_included": false,
+  "raw_factor_or_stock_level_return_saved_to_repository": false
+}

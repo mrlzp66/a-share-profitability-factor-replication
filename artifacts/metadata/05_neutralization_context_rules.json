@@ -1,0 +1,15 @@
+{
+  "industry_source": "citics_2019",
+  "industry_level": 1,
+  "industry_field": "first_industry_name",
+  "market_cap_factor": "market_cap_3",
+  "fcffic_excluded_industries": [
+    "房地产",
+    "综合金融",
+    "银行",
+    "非银行金融"
+  ],
+  "research_universe": "Dynamic CSI 800 after new-stock, ST and suspension filters.",
+  "raw_factor_values_saved_to_repository": false,
+  "next_step": "MAD winsorization, CITIC 2019 level-1 industry neutralization, log-market-cap neutralization and z-score."
+}

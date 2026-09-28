@@ -1,0 +1,10 @@
+{
+  "report_method": "Current TTM profitability metric and negative volatility of the latest nine quarterly TTM observations are equally weighted.",
+  "implementation_proxy": "Monthly signal panels are sampled at three-signal-month intervals to approximate consecutive quarterly TTM observations.",
+  "stability_periods": 9,
+  "signal_months_per_quarter": 3,
+  "maximum_lookback_months": 24,
+  "missing_value_rule": "All nine historical observations must be present; no missing financial observation is filled with zero.",
+  "ronoa_role": "Sensitivity-only. It remains ineligible for the main pool because strict RONOA raw coverage was insufficient before return testing.",
+  "raw_factor_values_saved_to_repository": false
+}

@@ -1,0 +1,10 @@
+{
+  "raw_factor_values_saved_to_repository": false,
+  "missing_value_policy": "Strict construction: no missing financial-statement input is silently imputed as zero.",
+  "roa_reconstructed_strict": "net_profit_parent_company_ttm_0 / total_assets_mrq_0",
+  "roic_reconstructed_strict": "ebit_ttm_0 * (1 - income_tax_ttm_0 / profit_before_tax_ttm_0) / (total_equity_mrq_0 + interest_bearing_debt - cash_equivalent)",
+  "ronoa_core_strict": "(profit_from_operation_ttm_0 + financial_expenseTTM - investment_income_ttm_0 - fair_value_change_income_ttm_0) / (total_equity_mrq_0 + interest_bearing_debt - cash_equivalent)",
+  "ronoa_extended_strict": "RONOA core numerator / (invested capital - five disclosed financial-asset fields). This version is only calculated when all five fields are present.",
+  "fcffic_reconstructed_strict": "(cash_flow_from_operating_activities_ttm_0 - cash_paid_for_asset_ttm_0) / (total_equity_mrq_0 + interest_bearing_debt - cash_equivalent)",
+  "decision_pending": "RONOA variants are not tested or included in a composite until strict coverage and missingness are reviewed."
+}

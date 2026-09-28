@@ -1,0 +1,14 @@
+{
+  "factor_name": "integrated_profitability_structure_proxy_strict",
+  "out_of_sample_period": "out_of_sample_2023_2025",
+  "decision_scope": "low_coverage_structural_sensitivity_only",
+  "predefined_decision_thresholds": {
+    "minimum_observations": 24,
+    "minimum_mean_paired_stocks": 100,
+    "minimum_positive_rank_ic_ratio": 0.55,
+    "minimum_rank_icir_annualized": 0.5,
+    "minimum_high_minus_low_t_stat": 1.96
+  },
+  "decision_rule": "Reject if mean RankIC <= 0 or mean Q5-Q1 <= 0; confirm only when all predefined stability and significance thresholds are met; otherwise retain as candidate_not_confirmed.",
+  "anti_overfitting_rule": "No weights, components, thresholds, or sample dates are modified after observing the result."
+}

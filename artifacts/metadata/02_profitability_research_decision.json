@@ -1,0 +1,6 @@
+{
+  "decision_principle": "Do not optimize factor weights, lookback windows, or grouping rules after observing the 2016-2025 results.",
+  "out_of_sample_period": "2023-01-01 to 2025-12-31",
+  "research_conclusion": "Profitability stability is a candidate component, not a confirmed standalone alpha. Baseline ROE and delevered ROE are rejected as standalone factors in this project.",
+  "next_research_stage": "Construct and evaluate ROIC and reconstructed FCFFIC."
+}

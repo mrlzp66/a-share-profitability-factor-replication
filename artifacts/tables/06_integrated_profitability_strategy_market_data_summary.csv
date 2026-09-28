@@ -1,0 +1,2 @@
+﻿strategy_trade_asset_count,price_start_date,price_end_date,trading_day_count,mean_open_valid_stock_count,min_open_valid_stock_count,mean_close_valid_stock_count,min_close_valid_stock_count,event_date_count,event_dates_with_missing_open_price,benchmark_missing_close_days,price_adjustment,benchmark_code
+223,2019-09-02,2026-02-02,1557,220.7,214,220.7,214,141,0,0,pre,000906.XSHG

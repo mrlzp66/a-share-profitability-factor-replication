@@ -1,0 +1,15 @@
+{
+  "purpose": "Component attribution of ROE improvement without parameter optimization.",
+  "fixed_variants": {
+    "roe_ttm_baseline": "Raw TTM ROE",
+    "delevered_roe": "ROE residual after removing the equity multiplier",
+    "negative_roe_volatility": "Negative volatility of the latest nine TTM ROE observations",
+    "stable_delevered_roe": "Equal-weighted combination of delevered ROE and negative ROE volatility"
+  },
+  "common_treatment": "All variants use the same MAD winsorization, CITIC 2019 first-level industry neutralization, log-market-cap neutralization, and cross-sectional z-score.",
+  "sample_split": {
+    "in_sample": "2016-2022",
+    "out_of_sample": "2023-2025"
+  },
+  "raw_factor_or_stock_level_return_saved_to_repository": false
+}

@@ -1,0 +1,6 @@
+{
+  "out_of_sample_period": "2023-01-01 to 2025-12-31",
+  "decision_principle": "Do not modify factor formulas, exclusion rules, or grouping rules after observing these results.",
+  "research_conclusion": "Direct ROIC is rejected as a standalone factor. Reconstructed FCFFIC is retained as a candidate component, not a confirmed standalone alpha.",
+  "next_research_stage": "Create a cross-factor scorecard using all completed profitability factor evidence, then define any composite as exploratory."
+}

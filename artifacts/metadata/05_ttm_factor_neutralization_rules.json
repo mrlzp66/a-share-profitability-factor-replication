@@ -1,0 +1,21 @@
+{
+  "factor_test_pool": [
+    "roa_reconstructed_strict",
+    "roa_vendor_reference",
+    "roic_reconstructed_strict",
+    "roic_vendor_reference",
+    "fcffic_reconstructed_strict"
+  ],
+  "treatment_order": [
+    "raw factor",
+    "MAD winsorization, n=3.5",
+    "CITIC 2019 first-level industry neutralization",
+    "log market-cap neutralization",
+    "cross-sectional z-score"
+  ],
+  "minimum_observations": 100,
+  "minimum_industry_groups": 5,
+  "fcffic_specific_rule": "Banks, non-bank financials, comprehensive finance and real estate are excluded before neutralization.",
+  "ronoa_status": "Not in main factor pool because strict coverage is insufficient; it will be retained only as a clearly labeled sensitivity analysis.",
+  "raw_or_security_level_factor_values_saved_to_repository": false
+}

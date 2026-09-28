@@ -1,0 +1,6 @@
+﻿factor_name,successful_periods,raw_valid_mean,raw_valid_min,model_input_mean,final_valid_mean,final_valid_min,industry_groups_mean,industry_groups_min,raw_cap_corr_abs_mean,final_cap_corr_abs_mean,raw_industry_dispersion_mean,final_industry_dispersion_mean
+fcffic_reconstructed_strict,120,640.091667,606,640.091667,640.091667,606,26.0,26,0.152434,0.0,0.065927,0.0
+roa_reconstructed_strict,120,779.5,726,779.5,779.5,726,29.608333,29,0.140866,0.0,0.025751,0.0
+roa_vendor_reference,120,779.5,726,779.5,779.5,726,29.608333,29,0.145345,0.0,0.034512,0.0
+roic_reconstructed_strict,120,680.691667,629,680.691667,680.691667,629,28.608333,28,0.282806,0.0,0.04854,0.0
+roic_vendor_reference,120,710.375,681,710.375,710.375,681,28.3,28,0.29436,0.0,0.031651,0.0

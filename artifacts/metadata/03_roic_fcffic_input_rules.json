@@ -1,0 +1,13 @@
+{
+  "roic": {
+    "implementation": "Direct RQFactor field",
+    "field": "return_on_invested_capital_ttm"
+  },
+  "fcffic_candidate": {
+    "numerator_candidate": "cash_flow_from_operating_activities_ttm_0 - cash_paid_for_asset_ttm_0",
+    "denominator_candidate": "total_equity_mrq_0 + interest_bearing_debt - cash_equivalent",
+    "status": "Candidate only. Confirm capex sign before finalizing the construction formula."
+  },
+  "raw_vendor_panels_saved_to_repository": false,
+  "all_fields_aligned_to": "monthly signal date T"
+}

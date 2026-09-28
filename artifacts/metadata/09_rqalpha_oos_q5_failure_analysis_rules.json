@@ -1,0 +1,14 @@
+{
+  "analysis_type": "read_only_post_backtest_diagnostics",
+  "backtest_engine": "RQAlpha",
+  "source_nav_file": "/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/07_rqalpha_oos_q5_daily_nav.csv",
+  "source_execution_file": "/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/07_rqalpha_oos_q5_daily_execution.csv",
+  "initial_cash": 100000000.0,
+  "drawdown_method": "running_peak_drawdown",
+  "relative_nav_definition": "strategy_nav / benchmark_nav",
+  "important_limitations": [
+    "该分析不重新调参、不修改因子、也不重跑回测。",
+    "期末存在涨跌停拒单时，最终净值为持仓市值计价，不等同于完全清仓后的现金收益。",
+    "零股下单提示与涨跌停拒单数量未形成独立的逐笔拒单审计表，不能由成交表反推出精确次数。"
+  ]
+}

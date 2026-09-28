@@ -1,0 +1,14 @@
+{
+  "factor_name": "stable_delevered_roe",
+  "return_label": "forward_return_20d",
+  "ic": "Pearson correlation between factor at T and future 20-trading-day return",
+  "rank_ic": "Spearman correlation between factor at T and future 20-trading-day return",
+  "grouping": "Equal-count quintiles; Q1 is lowest factor and Q5 is highest factor",
+  "portfolio_return": "Equal-weighted gross return within each quintile",
+  "high_minus_low": "Q5 return minus Q1 return",
+  "in_sample_period": "2016-01-01 to 2022-12-31",
+  "out_of_sample_period": "2023-01-01 to 2025-12-31",
+  "transaction_costs_included": false,
+  "execution_constraints_included": false,
+  "raw_factor_or_stock_level_return_saved_to_repository": false
+}

@@ -1,0 +1,8 @@
+{
+  "analysis_type": "forced_liquidation_tail_sensitivity",
+  "original_backtest_end_date": "2026-02-02",
+  "forced_exit_target_dates": "2026-02-03_to_2026-03-10",
+  "forced_exit_rule": "所有组合在追加的 20 个交易日每日目标权重为零。",
+  "comparison_rule": "三个组合使用相同的原始权重、成本、撮合、涨跌停与成交量限制；仅改变期末后的强制退出时间窗。",
+  "interpretation_rule": "强制退出后若最终 market_value 为零，说明在窗口内完成退出；若不为零，则仍应视为未完全可退出。"
+}

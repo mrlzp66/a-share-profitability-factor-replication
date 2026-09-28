@@ -1,0 +1,21 @@
+{
+  "roe_input_fields": {
+    "roe_lag_0": "return_on_equity_weighted_average_ttm_0",
+    "roe_lag_1": "return_on_equity_weighted_average_ttm_1",
+    "roe_lag_2": "return_on_equity_weighted_average_ttm_2",
+    "roe_lag_3": "return_on_equity_weighted_average_ttm_3",
+    "roe_lag_4": "return_on_equity_weighted_average_ttm_4",
+    "roe_lag_5": "return_on_equity_weighted_average_ttm_5",
+    "roe_lag_6": "return_on_equity_weighted_average_ttm_6",
+    "roe_lag_7": "return_on_equity_weighted_average_ttm_7",
+    "roe_lag_8": "return_on_equity_weighted_average_ttm_8",
+    "total_assets_mrq": "total_assets_mrq_0",
+    "total_equity_mrq": "total_equity_mrq_0"
+  },
+  "equity_multiplier": "total_assets_mrq_0 / total_equity_mrq_0",
+  "delevered_roe": "Cross-sectional residual from ROE regressed on equity multiplier.",
+  "roe_stability": "Negative sample standard deviation of the latest 9 TTM ROE observations.",
+  "stable_delevered_roe": "0.5 * zscore(delevered ROE) + 0.5 * zscore(negative ROE volatility).",
+  "common_final_treatment": "MAD winsorization, CITIC 2019 first-level industry neutralization, log-market-cap neutralization, z-score.",
+  "raw_factor_values_saved_to_repository": false
+}

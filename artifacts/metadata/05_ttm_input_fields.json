@@ -1,0 +1,33 @@
+{
+  "purpose": "TTM raw-input coverage audit for ROA, report-formula ROIC, RONOA core proxy and FCFFIC.",
+  "selected_input_fields": {
+    "market_cap": "market_cap_3",
+    "roa_vendor": "return_on_asset_ttm",
+    "net_profit_ttm": "net_profit_parent_company_ttm_0",
+    "total_assets_mrq": "total_assets_mrq_0",
+    "roic_vendor": "return_on_invested_capital_ttm",
+    "ebit_ttm": "ebit_ttm_0",
+    "income_tax_ttm": "income_tax_ttm_0",
+    "total_profit_ttm": "profit_before_tax_ttm_0",
+    "total_equity_mrq": "total_equity_mrq_0",
+    "interest_bearing_debt": "interest_bearing_debt",
+    "cash_equivalent": "cash_equivalent",
+    "operating_profit_ttm": "profit_from_operation_ttm_0",
+    "financial_expense_ttm": "financial_expenseTTM",
+    "investment_income_ttm": "investment_income_ttm_0",
+    "fair_value_change_ttm": "fair_value_change_income_ttm_0",
+    "fixed_deposits_mrq": "fixed_deposits_mrq_0",
+    "trading_financial_assets_mrq": "financial_asset_held_for_trading_mrq_0",
+    "available_for_sale_assets_mrq": "financial_asset_available_for_sale_mrq_0",
+    "hold_to_maturity_assets_mrq": "financial_asset_hold_to_maturity_mrq_0",
+    "dividend_receivable_mrq": "dividend_receivable_mrq_0",
+    "cfo_ttm": "cash_flow_from_operating_activities_ttm_0",
+    "capex_ttm": "cash_paid_for_asset_ttm_0"
+  },
+  "raw_panels_saved_to_repository": false,
+  "roa_formula": "net_profit_parent_company_ttm_0 / total_assets_mrq_0",
+  "roic_formula_planned": "EBIT * (1 - income_tax / total_profit) / (equity + interest_bearing_debt - cash_equivalent)",
+  "ronoa_core_proxy_formula": "(operating_profit + financial_expense - investment_income - fair_value_change_income) / (equity + interest_bearing_debt - cash_equivalent)",
+  "fcffic_formula": "(cash_flow_from_operating_activities - cash_paid_for_asset) / (equity + interest_bearing_debt - cash_equivalent)",
+  "ronoa_note": "Extended financial assets are audited separately. Missing components will never be silently imputed as zero."
+}

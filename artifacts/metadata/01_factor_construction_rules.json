@@ -1,0 +1,9 @@
+{
+  "equity_multiplier": "total_assets_mrq_0 / total_equity_mrq_0",
+  "negative_equity_treatment": "剔除总权益小于等于0的股票",
+  "delevered_roe": "每月横截面回归ROE对权益乘数，使用残差",
+  "roe_stability": "9期TTM ROE的样本标准差",
+  "stable_delevered_roe": "0.5*zscore(去杠杆ROE) + 0.5*zscore(-ROE波动率)",
+  "missing_value_rule": "9期ROE未完整披露则不计算稳定性，不填补",
+  "neutralization_status": "尚未进行行业与市值中性化"
+}

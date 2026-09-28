@@ -1,0 +1,4 @@
+﻿factor_name,period,observations,average_valid_stocks,min_valid_stocks,mean_ic,icir_annualized,mean_rank_ic,rank_icir_annualized,rank_ic_t_stat,rank_ic_p_value,positive_rank_ic_ratio,mean_q1_return,mean_q5_return,mean_high_minus_low_return,high_minus_low_t_stat,high_minus_low_p_value,main_pool_eligibility
+ronoa_core_strict_sensitivity,full_sample_2016_2025,120,325.666667,170,0.00468,0.173188,0.013804,0.496542,1.570204,0.119023,0.583333,0.007157,0.00766,0.000503,0.21576,0.829544,not_eligible_due_to_predefined_low_coverage
+ronoa_core_strict_sensitivity,in_sample_2016_2022,84,283.214286,170,0.013828,0.534616,0.027721,1.068234,2.82628,0.005899,0.666667,0.007139,0.010095,0.002956,1.112949,0.268943,not_eligible_due_to_predefined_low_coverage
+ronoa_core_strict_sensitivity,out_of_sample_2023_2025,36,424.722222,412,-0.016666,-0.574926,-0.018668,-0.6217,-1.076816,0.288929,0.388889,0.007199,0.001978,-0.005222,-1.135109,0.264044,not_eligible_due_to_predefined_low_coverage

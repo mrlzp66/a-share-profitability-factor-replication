@@ -1,0 +1,23 @@
+﻿input_name,component_name,factor_modules,necessity,selected_rqfactor_field,input_status,mean_valid_stock_count,min_valid_stock_count,mean_coverage_pct,min_coverage_pct,research_valid_observations
+market_cap,总市值,市值中性化,required,market_cap_3,selected,779.7,726,100.0,99.87,93566
+roa_vendor,供应商 ROA TTM,ROA 交叉核验,reference,return_on_asset_ttm,selected,779.5,726,99.97,98.09,93540
+net_profit_ttm,归母净利润 TTM,ROA 重构,required,net_profit_parent_company_ttm_0,selected,779.5,726,99.97,98.09,93540
+total_assets_mrq,总资产 MRQ,ROA 重构,required,total_assets_mrq_0,selected,779.7,726,100.0,99.87,93566
+roic_vendor,供应商 ROIC TTM,ROIC 交叉核验,reference,return_on_invested_capital_ttm,selected,710.4,681,91.15,88.55,85245
+ebit_ttm,EBIT TTM,ROIC 重构,required,ebit_ttm_0,selected,686.5,632,88.15,79.7,82386
+income_tax_ttm,所得税费用 TTM,ROIC 重构,required,income_tax_ttm_0,selected,775.5,720,99.46,97.71,93060
+total_profit_ttm,利润总额 TTM,ROIC 重构,required,profit_before_tax_ttm_0,selected,779.5,726,99.97,98.09,93540
+total_equity_mrq,总权益 MRQ,ROIC、RONOA、FCFFIC,required,total_equity_mrq_0,selected,779.7,726,100.0,99.87,93566
+interest_bearing_debt,有息负债,ROIC、RONOA、FCFFIC,required,interest_bearing_debt,selected,755.8,710,97.0,89.53,90698
+cash_equivalent,现金及现金等价物,ROIC、RONOA、FCFFIC,required,cash_equivalent,selected,779.7,726,100.0,99.87,93566
+operating_profit_ttm,营业利润 TTM,RONOA 重构,required,profit_from_operation_ttm_0,selected,779.5,726,99.97,98.09,93540
+financial_expense_ttm,财务费用 TTM,RONOA 重构,required,financial_expenseTTM,selected,686.5,630,88.15,79.45,82375
+investment_income_ttm,投资收益 TTM,RONOA 重构,required,investment_income_ttm_0,selected,727.5,626,93.24,85.25,87296
+fair_value_change_ttm,公允价值变动收益 TTM,RONOA 重构,required,fair_value_change_income_ttm_0,selected,417.0,220,53.1,29.62,50042
+fixed_deposits_mrq,定期存款 MRQ,RONOA 扩展金融资产,optional,fixed_deposits_mrq_0,selected,5.5,4,0.7,0.52,654
+trading_financial_assets_mrq,交易性金融资产 MRQ,RONOA 扩展金融资产,optional,financial_asset_held_for_trading_mrq_0,selected,463.3,225,58.97,30.82,55591
+available_for_sale_assets_mrq,可供出售金融资产 MRQ,RONOA 扩展金融资产,optional,financial_asset_available_for_sale_mrq_0,selected,215.1,0,28.59,0.0,25806
+hold_to_maturity_assets_mrq,持有至到期投资 MRQ,RONOA 扩展金融资产,optional,financial_asset_hold_to_maturity_mrq_0,selected,27.9,0,3.7,0.0,3348
+dividend_receivable_mrq,应收股利 MRQ,RONOA 扩展金融资产,optional,dividend_receivable_mrq_0,selected,169.3,95,21.7,12.09,20317
+cfo_ttm,经营活动现金流 TTM,FCFFIC 重构,required,cash_flow_from_operating_activities_ttm_0,selected,779.5,726,99.97,98.09,93540
+capex_ttm,资本开支 TTM,FCFFIC 重构,required,cash_paid_for_asset_ttm_0,selected,778.3,725,99.82,97.84,93396

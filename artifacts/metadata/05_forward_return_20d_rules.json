@@ -1,0 +1,13 @@
+{
+  "return_name": "forward_return_20d",
+  "signal_timing": "Factor is formed after the close of signal date T.",
+  "entry_rule": "Buy at the open of the first trading day after T.",
+  "exit_rule": "Sell at the open of the 21st trading day after T.",
+  "holding_intervals": 20,
+  "price_field": "open",
+  "price_adjustment": "pre",
+  "missing_price_treatment": "A stock is excluded for that signal date when entry or exit open price is missing or non-positive.",
+  "execution_constraints_included": false,
+  "execution_constraint_note": "Suspension, limit-up and tradability constraints are not included in this first factor-effectiveness test.",
+  "raw_price_or_stock_level_return_saved_to_repository": false
+}

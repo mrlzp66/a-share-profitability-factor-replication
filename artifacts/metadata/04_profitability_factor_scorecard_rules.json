@@ -1,0 +1,7 @@
+{
+  "purpose": "Final out-of-sample scorecard for all implemented profitability factor candidates.",
+  "out_of_sample_period": "2023-01-01 to 2025-12-31",
+  "interpretation_rule": "Candidate status requires persistent positive direction but does not mean a confirmed tradable alpha.",
+  "portfolio_claim": "No composite portfolio is selected or optimized from this scorecard, to avoid post-hoc selection bias.",
+  "raw_stock_level_data_saved_to_repository": false
+}

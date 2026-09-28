@@ -1,0 +1,6 @@
+﻿factor_name,factor_valid_mean,factor_valid_min,paired_mean,paired_min,mean_pair_coverage_pct
+roa_reconstructed_strict,779.5,726,779.4667,726,99.9958
+roa_vendor_reference,779.5,726,779.4667,726,99.9958
+roic_reconstructed_strict,680.6917,629,680.675,629,99.9976
+roic_vendor_reference,710.375,681,710.35,681,99.9965
+fcffic_reconstructed_strict,640.0917,606,640.075,606,99.9975

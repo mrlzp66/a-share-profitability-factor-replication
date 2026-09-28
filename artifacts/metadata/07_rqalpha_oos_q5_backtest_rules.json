@@ -1,0 +1,16 @@
+{
+  "engine": "rqalpha_plus",
+  "strategy": "integrated_profitability_structure_proxy_q5_long_only",
+  "evaluation_scope": "out_of_sample_2023_2025_signals_with_final_exit",
+  "benchmark": "000906.XSHG",
+  "target_weight_input": "/home/rice/notebook/a-share-profitability-factor-replication/data/strategy_inputs/07_oos_q5_target_weights_portable.pkl",
+  "raw_backtest_result": "/home/rice/notebook/a-share-profitability-factor-replication/data/backtests/07_rqalpha_oos_q5_analyser.pkl",
+  "matching_type": "current_bar",
+  "price_limit": true,
+  "volume_limit": true,
+  "volume_percent": 0.05,
+  "minimum_commission": 5.0,
+  "stock_commission_multiplier": 0.375,
+  "tax_multiplier": 1.0,
+  "rejected_order_audit_note": "sys_analyser contains filled trades but not full rejected-order logs. Console showed final-day limit-down rejections; realized NAV reflects them."
+}

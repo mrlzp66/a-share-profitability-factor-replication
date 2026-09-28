@@ -1,0 +1,14 @@
+{
+  "factor_name": "stable_delevered_roe",
+  "treatment_order": [
+    "Research-universe mask at signal date T",
+    "MAD winsorization with n=3.5",
+    "OLS residualization against intercept, log market cap, and CITIC 2019 first-level industry dummies",
+    "Cross-sectional z-score of residuals"
+  ],
+  "minimum_observations": 100,
+  "minimum_industry_groups": 5,
+  "industry_source": "citics_2019",
+  "no_future_data_rule": "Factor, market cap, industry classification and universe are all aligned to the monthly signal date T.",
+  "raw_factor_values_saved_to_repository": false
+}

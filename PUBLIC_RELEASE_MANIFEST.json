@@ -1,0 +1,1192 @@
+{
+  "package_name": "a-share-profitability-factor-replication-v0.1",
+  "created_at_utc": "2026-09-28T11:48:24.201370+00:00",
+  "research_status": "candidate_not_confirmed",
+  "file_count_excluding_manifest": 235,
+  "total_size_bytes_excluding_manifest": 9890436,
+  "excluded_categories": [
+    "data",
+    "cache",
+    "pkl_and_pickle_files",
+    "credentials",
+    "notebook_outputs",
+    "ipynb_checkpoints"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 344,
+      "sha256": "fec4b8e6a702ffce02b1963b5c72ce31ec4a845890416ccdd48c4e0dcfd49cfc"
+    },
+    {
+      "path": "ENVIRONMENT.md",
+      "size_bytes": 1687,
+      "sha256": "915db3f5ac4841a0180b74c4c22d865c8f9f44060813aec9f581727bcde3e1fa"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3016,
+      "sha256": "a311ccaa7f0490c728ed03b1c89a4ba288320fcdef7f2baff3c512dc56587d41"
+    },
+    {
+      "path": "artifacts/figures/01_csi800_universe_size.png",
+      "size_bytes": 23751,
+      "sha256": "9c068a5d0e3e0f8f4922fea9cad612ed4bd127b76b8000833f6993abcd4cb79b"
+    },
+    {
+      "path": "artifacts/figures/01_eligible_stock_count.png",
+      "size_bytes": 52637,
+      "sha256": "953b8406f8adcf8e363b1cd11513b1ff4c0663c6fcb820b39cbbb56b69b3e172"
+    },
+    {
+      "path": "artifacts/figures/01_factor_construction_coverage.png",
+      "size_bytes": 121648,
+      "sha256": "dcc0b8696c40bcd6abfffd35d362ccd9148900f58f00d989186232bcbac62bad"
+    },
+    {
+      "path": "artifacts/figures/01_industry_source_diagnosis.png",
+      "size_bytes": 45726,
+      "sha256": "3be7d1032b2585bf841cb2dda01832c223d26e4c037449abf759cbf55d72c696"
+    },
+    {
+      "path": "artifacts/figures/01_neutralization_input_coverage.png",
+      "size_bytes": 141128,
+      "sha256": "c3190a237bc6d1ca7fe1c33c864074a24ea743b10645b178ee33dec6016526ec"
+    },
+    {
+      "path": "artifacts/figures/01_neutralization_quality.png",
+      "size_bytes": 131646,
+      "sha256": "4683752288c07bd50f14a0788d75192268ece71cb2214083433a32504341fea8"
+    },
+    {
+      "path": "artifacts/figures/01_raw_input_coverage.png",
+      "size_bytes": 122661,
+      "sha256": "acc4eab17f62b17146f01835b2a713e3e2545c6d75a35d3f96dcf19fbf5109d7"
+    },
+    {
+      "path": "artifacts/figures/02_factor_effectiveness.png",
+      "size_bytes": 343960,
+      "sha256": "1304095c201fe8c35dbbee6dce9087dd914e3320631b809bf8329a7fd816c58f"
+    },
+    {
+      "path": "artifacts/figures/02_forward_return_20d_coverage.png",
+      "size_bytes": 138652,
+      "sha256": "fb0067cf7e14822c05bbd47c403525cc564cd00df87b49584fb1456b3c6d21f4"
+    },
+    {
+      "path": "artifacts/figures/02_profitability_variant_comparison.png",
+      "size_bytes": 63008,
+      "sha256": "2dd9defa44587c4e536aaa2589f742b22170e8fb565096d0c90837a34a4f2f61"
+    },
+    {
+      "path": "artifacts/figures/03_research_context_coverage.png",
+      "size_bytes": 87220,
+      "sha256": "51bc6ef5840e2c449bac52bdca499b9e067a5317f388eac14ad626a1d067f58e"
+    },
+    {
+      "path": "artifacts/figures/03_roic_fcffic_factor_effectiveness.png",
+      "size_bytes": 683971,
+      "sha256": "f1681ea0076a17c6edf4936c4e70d00509612104a7b48596962a0775a1657595"
+    },
+    {
+      "path": "artifacts/figures/03_roic_fcffic_final_coverage.png",
+      "size_bytes": 111229,
+      "sha256": "3f15b5a7e3d89d4a66cd13405d97283b81cb62ea7fbfe02562c8bb43e20a9620"
+    },
+    {
+      "path": "artifacts/figures/03_roic_fcffic_input_coverage.png",
+      "size_bytes": 186317,
+      "sha256": "5e840d7bff49d64fdb842d74b445f8a80d3cf93328f5d996c01a969f79c664a2"
+    },
+    {
+      "path": "artifacts/figures/03_roic_fcffic_return_pair_coverage.png",
+      "size_bytes": 112440,
+      "sha256": "aa00acfdc8cd7ab4c5254e3f4fe9f0d513ce0b70c297f92f287006e1f1a44cd9"
+    },
+    {
+      "path": "artifacts/figures/04_profitability_factor_scorecard.png",
+      "size_bytes": 50297,
+      "sha256": "2b39097c499f6339f6b42ee5835f05494c17fcfb2565a214234070e74d913fa9"
+    },
+    {
+      "path": "artifacts/figures/04_report_core_coverage.png",
+      "size_bytes": 59302,
+      "sha256": "f8af4920479044fd8daa841d9c78cc73d881f412b5c9c4366af177913d2fd9a7"
+    },
+    {
+      "path": "artifacts/figures/05_final_research_oos_scorecard.png",
+      "size_bytes": 67139,
+      "sha256": "d66f025e4ca9ba884f7fa80e3199d58e001429b243254b6644e3b3ce7ad4d796"
+    },
+    {
+      "path": "artifacts/figures/05_forward_return_20d_coverage.png",
+      "size_bytes": 205383,
+      "sha256": "830d7bd27aa2de927c3d2119babbd1c22bce6109a3ebbf08faca38c17bccad58"
+    },
+    {
+      "path": "artifacts/figures/05_integrated_profitability_common_sample_component_attribution.png",
+      "size_bytes": 71055,
+      "sha256": "b22b6128412cda56131d79ebe6b5d3bea8843f49174521c32d86c00e489fbadd"
+    },
+    {
+      "path": "artifacts/figures/05_integrated_profitability_factor_effectiveness.png",
+      "size_bytes": 339137,
+      "sha256": "dcb5359f9d8316e0a0b15edaf34ffb8ff53ccef4e739030b0bc9ba730c34fcce"
+    },
+    {
+      "path": "artifacts/figures/05_integrated_profitability_out_of_sample_scorecard.png",
+      "size_bytes": 54276,
+      "sha256": "9dc42303547fb82c983c4b94784bfa8206567249b95d975ee64ef12b6302dcd5"
+    },
+    {
+      "path": "artifacts/figures/05_integrated_profitability_structure_coverage.png",
+      "size_bytes": 191243,
+      "sha256": "e0ec13cdf4ff0e9e54019c2ecc9169211799f568037b30c7328f59028dc8e15c"
+    },
+    {
+      "path": "artifacts/figures/05_neutralization_context_coverage.png",
+      "size_bytes": 163949,
+      "sha256": "96aaec2de2289c8ab86587acb542c645ebedc126ede10f2473af81f3f537d990"
+    },
+    {
+      "path": "artifacts/figures/05_rebuilt_stable_delevered_roe_coverage.png",
+      "size_bytes": 165335,
+      "sha256": "c685a464264f7b1a1dd76c28936091e8dd5171e6dc193dbe1823f719b161715c"
+    },
+    {
+      "path": "artifacts/figures/05_reconstruction_reference_diagnosis.png",
+      "size_bytes": 120324,
+      "sha256": "56bf2878119b3725f2c0e594db3d7c57c7f438e878ae3b7e308a0e3d343e284a"
+    },
+    {
+      "path": "artifacts/figures/05_research_context_coverage.png",
+      "size_bytes": 90100,
+      "sha256": "2709eeba67e315ae013b69a53e157d8b9fcb39f4543f7406caff03364689c6cf"
+    },
+    {
+      "path": "artifacts/figures/05_ronoa_sensitivity_result.png",
+      "size_bytes": 348146,
+      "sha256": "2d667654b3f66a570201743a50d31eac8795de9bf13a9e70cc2e048c352ad4fe"
+    },
+    {
+      "path": "artifacts/figures/05_stability_proxy_construction_coverage.png",
+      "size_bytes": 140851,
+      "sha256": "e01f115778cb251666596c07657e3e5a7e2e6bf0dfaafd77cc3eb11a88869468"
+    },
+    {
+      "path": "artifacts/figures/05_stable_profitability_effectiveness.png",
+      "size_bytes": 85968,
+      "sha256": "8f2b1aa6ad79d431244345f4935d71d958badefcb6ade7711e28597676eb02fa"
+    },
+    {
+      "path": "artifacts/figures/05_ttm_factor_effectiveness_summary.png",
+      "size_bytes": 100338,
+      "sha256": "ed54a21a9866a7dfc25ceda5fe9c7266be2be19a8e9af3ec00d836f9df9d3f2d"
+    },
+    {
+      "path": "artifacts/figures/05_ttm_factor_neutralization_quality.png",
+      "size_bytes": 240585,
+      "sha256": "9a689f19c58fbfb271d6b66e0b8f0336bb0df42329e31ba4f1e4b786ad23a56d"
+    },
+    {
+      "path": "artifacts/figures/05_ttm_factor_out_of_sample_scorecard.png",
+      "size_bytes": 100338,
+      "sha256": "ed54a21a9866a7dfc25ceda5fe9c7266be2be19a8e9af3ec00d836f9df9d3f2d"
+    },
+    {
+      "path": "artifacts/figures/05_ttm_raw_factor_coverage.png",
+      "size_bytes": 54251,
+      "sha256": "baad24c6b5152f7a6b71f6c94a1eb86f47cb3157bcf3b14f5a6bfe5730b0cc21"
+    },
+    {
+      "path": "artifacts/figures/05_ttm_raw_input_coverage.png",
+      "size_bytes": 80867,
+      "sha256": "81b0a98d7d54a4646d92b1bc71bb3650c0292e2267e449838a6a63840a277d0e"
+    },
+    {
+      "path": "artifacts/figures/06_integrated_profitability_oos_attribution.png",
+      "size_bytes": 300272,
+      "sha256": "38dad2d1ad460919d35dacc1013a0a4e8d0a7e18b441d2611b58c1e77a5a90f8"
+    },
+    {
+      "path": "artifacts/figures/06_integrated_profitability_strategy_period_comparison.png",
+      "size_bytes": 263368,
+      "sha256": "d42516509ba71af2629469b94499406549c6455b9cdc824dfd1125b642028726"
+    },
+    {
+      "path": "artifacts/figures/07_rqalpha_oos_q5_performance.png",
+      "size_bytes": 216375,
+      "sha256": "b2cdc3a67171966de335bf24722a01cb9be1e989d082886aefca223b45609386"
+    },
+    {
+      "path": "artifacts/figures/08_rqalpha_oos_three_portfolio_comparison.png",
+      "size_bytes": 247453,
+      "sha256": "e88623f6acb8d1fc6a9dcf1aa517116132ff1910adc091b9c94eee522d3f5c95"
+    },
+    {
+      "path": "artifacts/figures/09_integrated_profitability_oos_yearly_stability.png",
+      "size_bytes": 42478,
+      "sha256": "5ca57ec89f6e6c18ff8f29683977ad028268aa31a9047dc94359e3bb2ba88f96"
+    },
+    {
+      "path": "artifacts/figures/09_rqalpha_forced_exit_sensitivity.png",
+      "size_bytes": 197640,
+      "sha256": "92cc8fed3b11e312d5004a8cae85fe63a5654467e957b5fc9211a8b9b1817742"
+    },
+    {
+      "path": "artifacts/figures/09_rqalpha_oos_q5_failure_analysis.png",
+      "size_bytes": 297870,
+      "sha256": "aa1320f78ac821352b717643e0faa8cccbc523b96c87b01e8f697a930078e7ab"
+    },
+    {
+      "path": "artifacts/metadata/01_factor_construction_rules.json",
+      "size_bytes": 501,
+      "sha256": "a8bcfa60579b58a5db89d3fdf737c5d5980521cab11027a1c2b8356d448dbeeb"
+    },
+    {
+      "path": "artifacts/metadata/01_industry_source_diagnosis_rules.json",
+      "size_bytes": 479,
+      "sha256": "32a4989df5858179e86ccd442056c77cd9a0068015d121273bb7fc8966892a01"
+    },
+    {
+      "path": "artifacts/metadata/01_input_fields.json",
+      "size_bytes": 694,
+      "sha256": "7a47587a7fe7da1aa2279f2ccd014cd7a56ff475081e5c4e627d74fe57b90e3d"
+    },
+    {
+      "path": "artifacts/metadata/01_neutralization_input_rules.json",
+      "size_bytes": 531,
+      "sha256": "56b51a50fabab08a733897b33eb197762b6c2f203bf312fed2bacd0a25cf2636"
+    },
+    {
+      "path": "artifacts/metadata/01_neutralization_rules.json",
+      "size_bytes": 583,
+      "sha256": "af2eb1b284156680e9f8e6d8cec52519b1699a0db0a3a5cb2377a237aab1b1fa"
+    },
+    {
+      "path": "artifacts/metadata/01_research_config.json",
+      "size_bytes": 326,
+      "sha256": "8173d6c26f9571bd55bbd45b806381192f74daec57dad89c00bece9f40be524b"
+    },
+    {
+      "path": "artifacts/metadata/01_research_mask_rules.json",
+      "size_bytes": 376,
+      "sha256": "a4e55e95cd099d86d2cb4652e1ae18f9438bbb8045b18a4f7ce9541eeae03273"
+    },
+    {
+      "path": "artifacts/metadata/02_factor_test_rules.json",
+      "size_bytes": 716,
+      "sha256": "2cc4eba0dcb71b4bb0dca1a110625f3036efa8e0d868e8a792ad40e7fe5b991b"
+    },
+    {
+      "path": "artifacts/metadata/02_forward_return_20d_rules.json",
+      "size_bytes": 1068,
+      "sha256": "946365783c714345bd125b1fddf917484d8c5f8a24be9f425c57e945b1545cc5"
+    },
+    {
+      "path": "artifacts/metadata/02_profitability_research_decision.json",
+      "size_bytes": 467,
+      "sha256": "23c362c63d0e5782334bef99068ef83250acb6440b0fdfd61f109f9987098e85"
+    },
+    {
+      "path": "artifacts/metadata/02_profitability_variant_comparison_rules.json",
+      "size_bytes": 758,
+      "sha256": "169bf07c1eb48fe11108c1fcfb272db9e439d3dc65792c27c59fbba915ece439"
+    },
+    {
+      "path": "artifacts/metadata/03_research_context_rules.json",
+      "size_bytes": 626,
+      "sha256": "a202b5e5b523354a342e71993bf94671ddbad97eac09f6f826ae4dc5a80c5408"
+    },
+    {
+      "path": "artifacts/metadata/03_roic_fcffic_factor_rules.json",
+      "size_bytes": 861,
+      "sha256": "bc725ec62bdf60bf766230446560509d4ae89644fc1d385578b6ece23f966306"
+    },
+    {
+      "path": "artifacts/metadata/03_roic_fcffic_factor_test_rules.json",
+      "size_bytes": 704,
+      "sha256": "8d6c10f4b646987fb2cb1be434bd1a7c5d568800023c2db911e94b86c754482e"
+    },
+    {
+      "path": "artifacts/metadata/03_roic_fcffic_input_rules.json",
+      "size_bytes": 531,
+      "sha256": "36115a74a8ee54e76bc23114b98bd498d73d901415e8beff76dbf61a33c17849"
+    },
+    {
+      "path": "artifacts/metadata/03_roic_fcffic_research_decision.json",
+      "size_bytes": 502,
+      "sha256": "89b221b04657f79de53099e7d6ce73f7bf36f83870e93fc19fbced17b2ec46ee"
+    },
+    {
+      "path": "artifacts/metadata/03_roic_fcffic_return_pair_rules.json",
+      "size_bytes": 261,
+      "sha256": "5144007137bb4b2734e7f5467b187b4f5a2dd472818da44f195e270755b2b2fc"
+    },
+    {
+      "path": "artifacts/metadata/04_profitability_factor_scorecard_rules.json",
+      "size_bytes": 465,
+      "sha256": "b9cb550ce652b94ae96355a93b4f60ed6e52af6aa617f7b9074b79c0f428c094"
+    },
+    {
+      "path": "artifacts/metadata/04_report_replication_scope.json",
+      "size_bytes": 5238,
+      "sha256": "3cbc7a9c40143a5cde0d148794bdc148c4616462b5bba34062ce2bab8bda705d"
+    },
+    {
+      "path": "artifacts/metadata/05_final_research_synthesis_rules.json",
+      "size_bytes": 1672,
+      "sha256": "1f629075e4c47d6743bfe28d0bcfe245978a1592701b2ca68996c1af1214f8b0"
+    },
+    {
+      "path": "artifacts/metadata/05_forward_return_20d_rules.json",
+      "size_bytes": 711,
+      "sha256": "e95ce28a4714fd7a7c2884e6d737efe84be2e49a2ceb75fe3f5c6754fb60c4d6"
+    },
+    {
+      "path": "artifacts/metadata/05_integrated_profitability_common_sample_component_attribution_rules.json",
+      "size_bytes": 815,
+      "sha256": "a3c17feb75cb4a1ac911921fead2cc12ebcf2dd39217f7727f74cde98b44bb50"
+    },
+    {
+      "path": "artifacts/metadata/05_integrated_profitability_factor_test_rules.json",
+      "size_bytes": 970,
+      "sha256": "97d01f9d484d11583d771aa98466ef8e3588c020882d4e03628e9a488359c048"
+    },
+    {
+      "path": "artifacts/metadata/05_integrated_profitability_research_decision_rules.json",
+      "size_bytes": 745,
+      "sha256": "6d63d00e68551bf617c8891c6e6b36b87798c803a30837eaa5dbe05633c24707"
+    },
+    {
+      "path": "artifacts/metadata/05_integrated_profitability_structure_rules.json",
+      "size_bytes": 4026,
+      "sha256": "fee05943e85bf49765199488f91a03b16c62a28c35432e24d81c922da5fdb934"
+    },
+    {
+      "path": "artifacts/metadata/05_neutralization_context_rules.json",
+      "size_bytes": 515,
+      "sha256": "8bdea69761b2d7236aab49c4fe3e40e0ee3fd9e0f98dac4be3e42c7313a3dee5"
+    },
+    {
+      "path": "artifacts/metadata/05_rebuilt_stable_delevered_roe_rules.json",
+      "size_bytes": 1197,
+      "sha256": "ed493bf9b7e25fb56896840f776c1721804bb84667ca34cfb0dfa84956e83127"
+    },
+    {
+      "path": "artifacts/metadata/05_research_context_rules.json",
+      "size_bytes": 611,
+      "sha256": "7f5536ba41cbdf69424e7d086c271a8d81c46674b19ed902bb1a3c183a121901"
+    },
+    {
+      "path": "artifacts/metadata/05_ronoa_sensitivity_rules.json",
+      "size_bytes": 628,
+      "sha256": "93a4da71818030e5a5c194b503fac857417dec72863c1018c5e059095ffad5a0"
+    },
+    {
+      "path": "artifacts/metadata/05_stability_proxy_construction_rules.json",
+      "size_bytes": 724,
+      "sha256": "167e72cc7a48a1edd29ec93d96229b8e8826844a0ae2370091a9c24f64d02a30"
+    },
+    {
+      "path": "artifacts/metadata/05_stable_profitability_test_rules.json",
+      "size_bytes": 692,
+      "sha256": "29ee703f7c004ea7f694a3a001ef15f482ec65de08d0a4c90a8dda7af5fc2035"
+    },
+    {
+      "path": "artifacts/metadata/05_ttm_factor_neutralization_rules.json",
+      "size_bytes": 802,
+      "sha256": "bb78415289d0c27bbb95962bd8e5a3b7059b3febc8b2f30b0ed2edf5c4761323"
+    },
+    {
+      "path": "artifacts/metadata/05_ttm_factor_pool_scope_rules.json",
+      "size_bytes": 902,
+      "sha256": "37e76311f2156640ffc19c859d0400384e0d63d7b45e8527e66ccc2eec6748e1"
+    },
+    {
+      "path": "artifacts/metadata/05_ttm_factor_research_decision_rules.json",
+      "size_bytes": 705,
+      "sha256": "1c3c8dd988a82eedd7b1c2ed3ef74df3d5b108f477317cd047084504db625c0f"
+    },
+    {
+      "path": "artifacts/metadata/05_ttm_factor_test_rules.json",
+      "size_bytes": 963,
+      "sha256": "67e46b435c797ca30771af56f3e5070da645ab410716b9234a732d90790a346a"
+    },
+    {
+      "path": "artifacts/metadata/05_ttm_input_fields.json",
+      "size_bytes": 1991,
+      "sha256": "822c3447fc78e8080ae7a39aa273ef22b1787428ac08a709531a094ef2267413"
+    },
+    {
+      "path": "artifacts/metadata/05_ttm_raw_factor_construction_rules.json",
+      "size_bytes": 1104,
+      "sha256": "aa5d196a96b6e81e1b8c96e842c05405bba29ab1e74074c82a74f9554faa3e7a"
+    },
+    {
+      "path": "artifacts/metadata/06_integrated_profitability_sleeve_allocation_rule.json",
+      "size_bytes": 497,
+      "sha256": "15a4a6da2ebd3857a6bc6221d6889e71bc24bfe53f9c662cb675a90a32b04cfa"
+    },
+    {
+      "path": "artifacts/metadata/06_integrated_profitability_strategy_specification.json",
+      "size_bytes": 1412,
+      "sha256": "55b105ae6107234594b375c8bfb28da5b8f4f49cdee8229683f088ecc53df71b"
+    },
+    {
+      "path": "artifacts/metadata/07_rqalpha_oos_q5_backtest_rules.json",
+      "size_bytes": 868,
+      "sha256": "e5919c77b1d07219cf3ef1c83824484090adffffbdfb45eb027fc813fe188c25"
+    },
+    {
+      "path": "artifacts/metadata/08_rqalpha_oos_strategy_comparison_rules.json",
+      "size_bytes": 547,
+      "sha256": "96be8a7d31bfac28a78ae053479614368dbabd0815220a01653689fa47803ff8"
+    },
+    {
+      "path": "artifacts/metadata/09_final_research_decision_rules.json",
+      "size_bytes": 613,
+      "sha256": "d2034843bb7389ada06a69d8fec0299830ec821729cbf71fd9a994e210b97551"
+    },
+    {
+      "path": "artifacts/metadata/09_integrated_profitability_hac_stability_rules.json",
+      "size_bytes": 385,
+      "sha256": "10aba5cd06d06e5340ebb5536db2204d19f4c7f331807f61c906b0245215cf5a"
+    },
+    {
+      "path": "artifacts/metadata/09_rqalpha_forced_exit_sensitivity_rules.json",
+      "size_bytes": 577,
+      "sha256": "527eb8d2c53f47c213f2edb732247021e016806e178c1bd1033134e727c505cb"
+    },
+    {
+      "path": "artifacts/metadata/09_rqalpha_oos_q5_failure_analysis_rules.json",
+      "size_bytes": 873,
+      "sha256": "5fc5907bd6dd0fba9e9857ee7b73d4abaaffb98c25d54bb971359d29366cdfb3"
+    },
+    {
+      "path": "artifacts/metadata/10_final_report_context.json",
+      "size_bytes": 548,
+      "sha256": "935331cf95ec1909b47a55a9d4681c40662e39c0c33c3095dd2d56955f6d36e0"
+    },
+    {
+      "path": "artifacts/tables/01_industry_query_log.csv",
+      "size_bytes": 2457,
+      "sha256": "38ac3ed85b4e0226d678bf2179b964d5dcdea0b83df7ef6173b0e1e8f1ff8d79"
+    },
+    {
+      "path": "artifacts/tables/01_industry_source_diagnosis.csv",
+      "size_bytes": 771,
+      "sha256": "1081d2827fce53c8f42e4777ad0e72cafee397962809cc6b4909870a25bd4049"
+    },
+    {
+      "path": "artifacts/tables/01_neutralization_input_coverage.csv",
+      "size_bytes": 3851,
+      "sha256": "d8665c098b57f12990074a76f21d63bbf3e822c62983c5cebfc23854b04dc2c9"
+    },
+    {
+      "path": "artifacts/tables/01_pre_neutralization_factor_summary.csv",
+      "size_bytes": 4335,
+      "sha256": "2767fd417650f0e9478bfcc5e4d5e0b62711e3e55358fa29b2caa27febd4036f"
+    },
+    {
+      "path": "artifacts/tables/01_raw_input_coverage.csv",
+      "size_bytes": 7761,
+      "sha256": "cbad7667244fd984647b5205e0e50cda110d627409cf053cc8283c8a23e63da2"
+    },
+    {
+      "path": "artifacts/tables/01_research_mask_summary.csv",
+      "size_bytes": 3154,
+      "sha256": "3e1b4812f11c1914c26c6904575f22d6f3c2266aaa99ba9420e2b2041ac14e6e"
+    },
+    {
+      "path": "artifacts/tables/01_selected_industry_coverage.csv",
+      "size_bytes": 3473,
+      "sha256": "a2853ce2d32188d423d40b4890033cc5099f0b07872c3fe55521278bcf6ca4ea"
+    },
+    {
+      "path": "artifacts/tables/01_stable_delevered_roe_neutralization_audit.csv",
+      "size_bytes": 17933,
+      "sha256": "88e1d1b0be843ea4619333e81b21c8c0a112f5df1c01027b7c59af490a450e0e"
+    },
+    {
+      "path": "artifacts/tables/01_universe_summary.csv",
+      "size_bytes": 36476,
+      "sha256": "506e9e1b3ee1648621b9b2bb77cfa4bc2404f64e676157f3f243066076d57996"
+    },
+    {
+      "path": "artifacts/tables/02_factor_effectiveness_summary.csv",
+      "size_bytes": 1692,
+      "sha256": "7ceed5e2fcc96d9b5adbfd21c21ce7d27d77a38f683c19e7e6bc14ee2fba3ff0"
+    },
+    {
+      "path": "artifacts/tables/02_forward_return_20d_coverage.csv",
+      "size_bytes": 7427,
+      "sha256": "f758d40d6064166dcdb170d526243c5465897a57f374a2b22628ac7b7f8465a6"
+    },
+    {
+      "path": "artifacts/tables/02_ic_rankic_timeseries.csv",
+      "size_bytes": 6780,
+      "sha256": "0e9f72e094e1411c34fc7882927bbfd53ba1c3c664c236298bb1a43ed7cafb1c"
+    },
+    {
+      "path": "artifacts/tables/02_profitability_research_decision_log.csv",
+      "size_bytes": 1510,
+      "sha256": "1041d2da0883eaf6b5a3cebef6f82bc10e14fe0f7282c5d84d55b59000b0eb20"
+    },
+    {
+      "path": "artifacts/tables/02_profitability_variant_comparison.csv",
+      "size_bytes": 3801,
+      "sha256": "57b936fbfb5c110187611b1cd1f5abd70cffac32c6032ead27f4ea91ce565bbd"
+    },
+    {
+      "path": "artifacts/tables/02_profitability_variant_coverage.csv",
+      "size_bytes": 16363,
+      "sha256": "1884a0bccf9334b00cd26cd41011046adbd2d9579eaa8e5aa9065d2bd930811e"
+    },
+    {
+      "path": "artifacts/tables/02_profitability_variant_monthly_hml.csv",
+      "size_bytes": 44752,
+      "sha256": "81c4479fcfec57105421b0237eb0ff0c8be029ca18be19f8d01c99d6d6e17cab"
+    },
+    {
+      "path": "artifacts/tables/02_profitability_variant_monthly_rankic.csv",
+      "size_bytes": 36196,
+      "sha256": "29bc1eb1a58f3d777243404645ca96e83fd140a6ba76e75fa7b4c22bdbb71311"
+    },
+    {
+      "path": "artifacts/tables/02_quintile_return_timeseries.csv",
+      "size_bytes": 18941,
+      "sha256": "1b72e943f86ce5147331970887f03340d6996f3e02586479dc602ac4d99f20f5"
+    },
+    {
+      "path": "artifacts/tables/02_return_schedule.csv",
+      "size_bytes": 4770,
+      "sha256": "3a5421554950aa88ad4b0311e0cb275ffee2f3d24685678d14330118f0a25308"
+    },
+    {
+      "path": "artifacts/tables/03_research_context_summary.csv",
+      "size_bytes": 3377,
+      "sha256": "a49081b768bc6d4cc7f8962451a45a6bff2cc2b22bec2ebe601fd61a6efa8ed5"
+    },
+    {
+      "path": "artifacts/tables/03_roic_fcffic_component_signs.csv",
+      "size_bytes": 834,
+      "sha256": "95e09720e51f3fbacba30c8c8a4e71dcc1ae58451e356913a3c3896becb28d33"
+    },
+    {
+      "path": "artifacts/tables/03_roic_fcffic_construction_audit.csv",
+      "size_bytes": 25313,
+      "sha256": "92fc9f899957c09174c8e5b3bf5e3f6a4d69d2abfe6500ceefd43af40d981834"
+    },
+    {
+      "path": "artifacts/tables/03_roic_fcffic_effectiveness_summary.csv",
+      "size_bytes": 2831,
+      "sha256": "9f96aada940a508a76ed3a4494e9be78ce4391ac92d0cba205723f3e8ef9353b"
+    },
+    {
+      "path": "artifacts/tables/03_roic_fcffic_ic_rankic_timeseries.csv",
+      "size_bytes": 16666,
+      "sha256": "cd71651f453a8e7322d68d76da0ef8cffedec6b4d3503f084efe54cc2686830e"
+    },
+    {
+      "path": "artifacts/tables/03_roic_fcffic_input_coverage.csv",
+      "size_bytes": 6334,
+      "sha256": "e235c4dba2277eab2299fffb3798142989d1098cd36dbb39e67c6b8587d00bdb"
+    },
+    {
+      "path": "artifacts/tables/03_roic_fcffic_quintile_return_timeseries.csv",
+      "size_bytes": 40906,
+      "sha256": "8992cb5fee5871fb383e70aa73320facac4dfd459c09eafb462d1c9ec083111e"
+    },
+    {
+      "path": "artifacts/tables/03_roic_fcffic_research_decision_log.csv",
+      "size_bytes": 1023,
+      "sha256": "2f04645f4c3be1c022860d61faf92a5053591b2c43e7cb4d830dc6cf03c5de36"
+    },
+    {
+      "path": "artifacts/tables/03_roic_fcffic_return_pair_coverage.csv",
+      "size_bytes": 10487,
+      "sha256": "7f715db1998f760599e2fd7b4f9e9b89b615fc7f6da5eccf004023e1c309f8cf"
+    },
+    {
+      "path": "artifacts/tables/04_factor_definition_map.csv",
+      "size_bytes": 1938,
+      "sha256": "e68f0438d13cb372342e0bc6fe674cc7a46474a596239f9abfef83bae5113526"
+    },
+    {
+      "path": "artifacts/tables/04_profitability_factor_scorecard.csv",
+      "size_bytes": 2616,
+      "sha256": "78cea88ec63aaf168e8f5a899b0e3edfa28825e6b7c698310a900d18b7c8285d"
+    },
+    {
+      "path": "artifacts/tables/04_report_core_candidate_query_log.csv",
+      "size_bytes": 13095,
+      "sha256": "453b03f38cda81091084b0fdef2e91f57395321ebc0214695b3f107474cab0e9"
+    },
+    {
+      "path": "artifacts/tables/04_report_core_field_availability.csv",
+      "size_bytes": 26325,
+      "sha256": "557c92125251022d5ea409f847f378f553d1b76fccdc2157970c6ca49bd0a24e"
+    },
+    {
+      "path": "artifacts/tables/05_fcffic_industry_exclusion_audit.csv",
+      "size_bytes": 115,
+      "sha256": "e2266e46eab04e218d2f7e33595b2ec843ca9b761e7fd9a4504bc2652fb2bbb2"
+    },
+    {
+      "path": "artifacts/tables/05_final_research_evidence_register.csv",
+      "size_bytes": 4613,
+      "sha256": "4521ba6a1b435c7ccab4d2c3bc57c7c20037964d276719b6178caa6af63fcbd5"
+    },
+    {
+      "path": "artifacts/tables/05_final_research_source_inventory.csv",
+      "size_bytes": 785,
+      "sha256": "f590ee8f1d5779b67db51cddfc0f59a0b10f0f7c3436143f303cf4940bee5198"
+    },
+    {
+      "path": "artifacts/tables/05_forward_return_20d_coverage.csv",
+      "size_bytes": 11067,
+      "sha256": "363b59dd6d652310351d649b0cb703508749a9b5bf1691ad8e88bca51b0abfbc"
+    },
+    {
+      "path": "artifacts/tables/05_forward_return_20d_coverage_summary.csv",
+      "size_bytes": 377,
+      "sha256": "c614c778be4bed6d0d13d6dd0897c0544bf8497ecbeaadff4117d212b4c34686"
+    },
+    {
+      "path": "artifacts/tables/05_industry_distribution.csv",
+      "size_bytes": 520,
+      "sha256": "b32a868e43c54eb10884b59be2a7712a2a9d09c68d601f723020c672a2aba9c6"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_common_sample_component_attribution_monthly.csv",
+      "size_bytes": 88208,
+      "sha256": "fea7a9b6d5248717b719e7d2b1843da071252393a728ed1afb24f07de9acae30"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_common_sample_component_attribution_summary.csv",
+      "size_bytes": 4377,
+      "sha256": "8e88b93765f95daef9884cae786bc655e68e9492f960f13ad29ee31aaec045a9"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_common_sample_component_neutralization_audit.csv",
+      "size_bytes": 61113,
+      "sha256": "e9ea7536df0a224de2998522333ed62e239a9f74d83486efa4f21817182018ce"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_component_coverage.csv",
+      "size_bytes": 5048,
+      "sha256": "b274ddb6604d043ba9e7497b1118123cabee0152ae37ec532310752a9fe66bc9"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_component_weights.csv",
+      "size_bytes": 376,
+      "sha256": "ef22ec59ce599383ff64afa3ceee84f38d6c1953efd689aa7d2b5a87ba922c94"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_construction_audit.csv",
+      "size_bytes": 13027,
+      "sha256": "19905fb0e5bddef008f82ad467444eb46ee002ebc0f4fd02f183efcb42f42810"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_construction_summary.csv",
+      "size_bytes": 639,
+      "sha256": "52e9cd3a47cd8859bdf734047b15965fef9d405646396afa2e18ac31b9595980"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_effectiveness_summary.csv",
+      "size_bytes": 1097,
+      "sha256": "8ed65dc14c70525d91422596b20451c08beeb114e0ed5a1f983f15765e68a31f"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_factor_test_failures.csv",
+      "size_bytes": 1973,
+      "sha256": "a48cd9be298d09bceb71a53bede977f2378b3b893b1e096ed82f3b368cdf8b00"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_ic_rankic_timeseries.csv",
+      "size_bytes": 6563,
+      "sha256": "1b4ad222538a7708b6d5aed44cead16c5c905f8887ca33c588a653eacb4d7dc7"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_quintile_return_timeseries.csv",
+      "size_bytes": 13327,
+      "sha256": "1b702c862a941ab2076dec86e8a8174b1200d895bcd251d32bb2e8b5d20872d1"
+    },
+    {
+      "path": "artifacts/tables/05_integrated_profitability_research_decision_log.csv",
+      "size_bytes": 552,
+      "sha256": "25c8a15fe6d580d14c0dcd1282f40243dc7e84e7771cbd9ca9f3556f03863dc8"
+    },
+    {
+      "path": "artifacts/tables/05_neutralization_context_coverage.csv",
+      "size_bytes": 6446,
+      "sha256": "dca54f0bf8e7a503dcf4975660958432ebc779885d545349a4e3b1fe11f6b99a"
+    },
+    {
+      "path": "artifacts/tables/05_neutralization_context_summary.csv",
+      "size_bytes": 551,
+      "sha256": "249f527aa297a8d1aee5d8d9ea459f46ed59147c6a5f100bed1a23c60d0f6d67"
+    },
+    {
+      "path": "artifacts/tables/05_rebuilt_delevered_roe_audit.csv",
+      "size_bytes": 5710,
+      "sha256": "67a2ca2157f7505429f9e831c5d09301cdcae689b4f5b362400f53b24017f363"
+    },
+    {
+      "path": "artifacts/tables/05_rebuilt_stable_delevered_roe_coverage.csv",
+      "size_bytes": 4887,
+      "sha256": "091141b6dc9ec4db73af737cb57af0e4aa4351d5e6a018972117e4f69c8e9112"
+    },
+    {
+      "path": "artifacts/tables/05_rebuilt_stable_delevered_roe_neutralization_audit.csv",
+      "size_bytes": 17306,
+      "sha256": "39040d1ead9545469ff0978631d2448330d531ff2211904108be6ce2aa551259"
+    },
+    {
+      "path": "artifacts/tables/05_reconstruction_reference_monthly_diagnosis.csv",
+      "size_bytes": 24053,
+      "sha256": "a6155edeb9b76b584325f581843156b5b0f50d1a21da57c2e0f7dff5385fbb40"
+    },
+    {
+      "path": "artifacts/tables/05_reconstruction_reference_summary.csv",
+      "size_bytes": 351,
+      "sha256": "b84df9c0600d9d00ee8232cbc763c5555686792832671108c13ab10036edae6c"
+    },
+    {
+      "path": "artifacts/tables/05_research_context_summary.csv",
+      "size_bytes": 3377,
+      "sha256": "a49081b768bc6d4cc7f8962451a45a6bff2cc2b22bec2ebe601fd61a6efa8ed5"
+    },
+    {
+      "path": "artifacts/tables/05_return_schedule.csv",
+      "size_bytes": 4770,
+      "sha256": "3a5421554950aa88ad4b0311e0cb275ffee2f3d24685678d14330118f0a25308"
+    },
+    {
+      "path": "artifacts/tables/05_roic_stability_comparison.csv",
+      "size_bytes": 1822,
+      "sha256": "f8f34e1a058b97feba36eb66efc2fb4bf45472b2592f623b91fe5079658770c8"
+    },
+    {
+      "path": "artifacts/tables/05_ronoa_sensitivity_effectiveness_summary.csv",
+      "size_bytes": 977,
+      "sha256": "8ff7c930bfebba29ed750acc70c5ca9b14c53f8257ed3846b1e146a239b72eb1"
+    },
+    {
+      "path": "artifacts/tables/05_ronoa_sensitivity_ic_rankic_timeseries.csv",
+      "size_bytes": 11363,
+      "sha256": "bfd75aa2d9b124af6a601a607ef43fbc7aaee25b2967dfca154b335e05aa6ee4"
+    },
+    {
+      "path": "artifacts/tables/05_ronoa_sensitivity_neutralization_audit.csv",
+      "size_bytes": 18456,
+      "sha256": "79a80a9a251be8d9c3e26f0c1392582e2a905a998212b1e3e5bee2d751a8073c"
+    },
+    {
+      "path": "artifacts/tables/05_ronoa_sensitivity_quintile_return_timeseries.csv",
+      "size_bytes": 21555,
+      "sha256": "312e78c65a1946f2c9ff23c3db8289b679f60e6ceadafae8646fd841f2e41831"
+    },
+    {
+      "path": "artifacts/tables/05_stability_proxy_construction_coverage.csv",
+      "size_bytes": 4639,
+      "sha256": "3dc5badc135120380f3a46adf84b5eab1b0416f0d71f9f5d37e5b2a14f689e8f"
+    },
+    {
+      "path": "artifacts/tables/05_stability_proxy_readiness.csv",
+      "size_bytes": 243,
+      "sha256": "95596099ec5dfd8ff6e3edb5ff06b6bfd2169d19d30c78f3e8d97a51794a10e7"
+    },
+    {
+      "path": "artifacts/tables/05_stable_profitability_effectiveness_summary.csv",
+      "size_bytes": 1473,
+      "sha256": "20c511b30651581ea1d2f8e347f233968f5559a50dce2063502d295a28cd4bdb"
+    },
+    {
+      "path": "artifacts/tables/05_stable_profitability_ic_rankic_timeseries.csv",
+      "size_bytes": 25938,
+      "sha256": "69ba01e48869032464b247f3f26f687463636092b0fe6c1f2b12fcbe5759cbfe"
+    },
+    {
+      "path": "artifacts/tables/05_stable_profitability_neutralization_audit.csv",
+      "size_bytes": 37266,
+      "sha256": "34417e9e0d34eb6cc87d542820b1a5e2dcadc95a8ba655994d198a969f5aa709"
+    },
+    {
+      "path": "artifacts/tables/05_stable_profitability_quintile_return_timeseries.csv",
+      "size_bytes": 41416,
+      "sha256": "5971bdafd94aaa489c389288592b9f202ac484ae6c19cea0a58681b9c218c459"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_factor_effectiveness_summary.csv",
+      "size_bytes": 3689,
+      "sha256": "13648be084edc12df088926598639b483aca2db9f30a6578ce408564ff2aefaf"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_factor_ic_rankic_timeseries.csv",
+      "size_bytes": 53323,
+      "sha256": "3137bde2a4bb58b0c2ea145ec47e7ed6c33054a122fc7ae2d0135bc1b1d79643"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_factor_neutralization_audit.csv",
+      "size_bytes": 88112,
+      "sha256": "aa0227025090c0472b607681279756e6351b4bc6b83854e1713315aa067489df"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_factor_neutralization_failures.csv",
+      "size_bytes": 209,
+      "sha256": "f8252bf5fe7b10983d4672f3bb8d62f3f465a435009526f52aa517ab0ad5b85f"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_factor_neutralization_summary.csv",
+      "size_bytes": 751,
+      "sha256": "a5f905bbfd5f447aebe7e765c6de730f9f6f37d68f1630d8d24df3a1419f3ce5"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_factor_pool_scope.csv",
+      "size_bytes": 1281,
+      "sha256": "0742f53aeb08a86cd0ed9267e1d14d95f4ad6d724188cf5f4453f99078d44f76"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_factor_quintile_return_timeseries.csv",
+      "size_bytes": 104038,
+      "sha256": "85458fcec65fdb3dc47537b81935364b9b12fe03a094cea319190ca93dad972f"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_factor_research_decision_log.csv",
+      "size_bytes": 1798,
+      "sha256": "2035299e597deeafcfd7b007c003dace71edde1e490d66c841c711c1c60f5a08"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_formula_intermediate_audit.csv",
+      "size_bytes": 767,
+      "sha256": "3f45285f5d636162544f54f30949a18d37f1288f2f3c696ace634f6aabd06760"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_input_candidate_query_log.csv",
+      "size_bytes": 2693,
+      "sha256": "d5ee7b45b8e9cf8d9a3441e78eba7888ce5bc7fb027f766c888654c0162a855b"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_raw_factor_construction_coverage.csv",
+      "size_bytes": 959,
+      "sha256": "14605eae0bc14b9d62315ceb4aac81bc2849c99764a2df70e69670c66f4d5b52"
+    },
+    {
+      "path": "artifacts/tables/05_ttm_raw_input_coverage.csv",
+      "size_bytes": 2943,
+      "sha256": "360c430f1894acca2225310bf1a529ec77711caba87cf2d6203524dd95d3e1d4"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_eligible_execution_audit.csv",
+      "size_bytes": 9013,
+      "sha256": "89d6cf6ce1c4d76c227f63384cc78a9dfaf6dfe0dbf3c93b776cdd4a6cc16d22"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_eligible_execution_summary.csv",
+      "size_bytes": 431,
+      "sha256": "219efc0b07e2b2fe00772e59d16415e79b2599cd3b95d3f8e9fe1dd82f95964b"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_execution_schedule_audit.csv",
+      "size_bytes": 13690,
+      "sha256": "4b5fe04ac89aff16270ace1670e50dc2a4dfd88b2c506637aed1969bf56bf9e5"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_execution_schedule_summary.csv",
+      "size_bytes": 432,
+      "sha256": "4423e62667d4dd8b54a830b4c0c90451545329e8d4e1573a0adab628d1c62504"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_oos_attribution_daily_nav.csv",
+      "size_bytes": 142092,
+      "sha256": "9bab5d19f8553936acdb9c2c422c4c3fb5c44e1d55edaea6d1e4403eae18bec8"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_oos_attribution_execution.csv",
+      "size_bytes": 455,
+      "sha256": "9b8da9b007876f18d4024755e30ede796f4a32e6730946bdbcdf378ea7a7e142"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_oos_attribution_performance.csv",
+      "size_bytes": 582,
+      "sha256": "e51bf178e6e315752f9e3ab6606a81d0a6bd78f80531e19d9f345a28dd15b37d"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_oos_attribution_relative_performance.csv",
+      "size_bytes": 715,
+      "sha256": "d1a12d2a22f37c6440975e3825896247036e4b995130ffb1c2ea86bc7530588a"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_oos_attribution_selection_audit.csv",
+      "size_bytes": 6967,
+      "sha256": "5042c58c9eb8e8b5b4578698284907f96b14a3e45372ac34f27264ac10a2ccc7"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_q5_selection_audit.csv",
+      "size_bytes": 5886,
+      "sha256": "3222ed44b7e0ecdb83a341da17f189cd64295f60504400d70e738629bf5f7ead"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_sleeve_allocation_audit.csv",
+      "size_bytes": 4413,
+      "sha256": "72ff06c107b8b745144c9247a45e5457748ae4a469ff678c259a4201fbcc1fc5"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_source_holding_intervals.csv",
+      "size_bytes": 41,
+      "sha256": "9517d0fe9936be7632e0d3610553d55ee9c83479f1e50a3b8400787f5e53b999"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_daily_nav.csv",
+      "size_bytes": 301950,
+      "sha256": "d298a51eb7e014efc54917bf9202a997b2f14aeb3a5c08b0c92cd3dc837f05a3"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_daily_price_coverage.csv",
+      "size_bytes": 37449,
+      "sha256": "43f807cb3d5e0dd6223b3e36b3541cd7ef1289fa01b5e0664372c1f99d8f6923"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_eligible_schedule.csv",
+      "size_bytes": 3093,
+      "sha256": "071ed77b7e24080e362aefbc9c3695961acfa2de967c3b443ba67a35e60731e3"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_event_open_coverage.csv",
+      "size_bytes": 3512,
+      "sha256": "0bb8021dac419c3d4cd2ff2dda3d7495f38bbeed3405576ca122cc711d9aa24a"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_event_trade_summary.csv",
+      "size_bytes": 24004,
+      "sha256": "88cffd7d98449052a86f5f712f2e89845b7d189d4b469232e7d5115271cceade"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_execution_summary.csv",
+      "size_bytes": 347,
+      "sha256": "40e55cc576852046fb84a1b8bc6ae7aa1b9bd7415183477a93ecac74065fb0d7"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_market_data_summary.csv",
+      "size_bytes": 381,
+      "sha256": "7c3fa175f82819c07768ef771475b4527bbc3ea1500b6d5bc90f11ebe1e133fd"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_performance.csv",
+      "size_bytes": 432,
+      "sha256": "a6150b79772327f7f94e56bac92312a3231eaa0a1ac2cd6874df2d3bc1fb37cb"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_period_daily_nav.csv",
+      "size_bytes": 366363,
+      "sha256": "a8d6fc2c4e79bad31de4bce51e6a5f3b35e148d81c50464554327b8ae56bd95b"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_period_execution.csv",
+      "size_bytes": 515,
+      "sha256": "5247f9425f72a3fe5c101193340018136ca4c0e70048b4944e4aedbdaafebf2e"
+    },
+    {
+      "path": "artifacts/tables/06_integrated_profitability_strategy_period_performance.csv",
+      "size_bytes": 1089,
+      "sha256": "4aee8716b93f9aba5c24448c8b58a26048a45a0a2f85c7e7de4024159288fca6"
+    },
+    {
+      "path": "artifacts/tables/07_rqalpha_oos_q5_daily_execution.csv",
+      "size_bytes": 4441,
+      "sha256": "a6871339616352548ef005e06b6fb9d17e3cfab84b52d41f4c2412008a3289eb"
+    },
+    {
+      "path": "artifacts/tables/07_rqalpha_oos_q5_daily_nav.csv",
+      "size_bytes": 71841,
+      "sha256": "0cf31388ddda870f8486c0e538fadb1ff9ba3a622d5219ca2e0251ca3b7a4a3b"
+    },
+    {
+      "path": "artifacts/tables/07_rqalpha_oos_q5_execution_summary.csv",
+      "size_bytes": 267,
+      "sha256": "05b82167a4df22807e1ee888294e11b710abf2c5e64a714854a7a64b887c8ee7"
+    },
+    {
+      "path": "artifacts/tables/07_rqalpha_oos_q5_performance_summary.csv",
+      "size_bytes": 2212,
+      "sha256": "20e28629aff4ba4a7b70fb45a158e08b61a46e8622c57acc5fb5727f4e70024b"
+    },
+    {
+      "path": "artifacts/tables/08_rqalpha_oos_q5_relative_comparison.csv",
+      "size_bytes": 229,
+      "sha256": "ceb4848ddab65d288c3354607d94633eb03055dcd42b257b7ef3420839ce8b18"
+    },
+    {
+      "path": "artifacts/tables/08_rqalpha_oos_strategy_research_decision.csv",
+      "size_bytes": 359,
+      "sha256": "d72473328c782d2738e54bcc45bba6e2b48fec10b5125271af467a262324c92d"
+    },
+    {
+      "path": "artifacts/tables/08_rqalpha_oos_three_portfolio_daily_nav.csv",
+      "size_bytes": 38615,
+      "sha256": "27e52f4985dc582af230f99bf37e0bca0c37629a5e50b092051331fa0326e990"
+    },
+    {
+      "path": "artifacts/tables/08_rqalpha_oos_three_portfolio_performance.csv",
+      "size_bytes": 838,
+      "sha256": "1dbca5347e538c4ff1026ca8dec1b454311e4de2c5e992c2acbdfbe5d9458b18"
+    },
+    {
+      "path": "artifacts/tables/09_final_research_decision_log.csv",
+      "size_bytes": 805,
+      "sha256": "82f89299470617e94ab9a26fb14a9c436ebde63091f41abe940a10058c1fc7ed"
+    },
+    {
+      "path": "artifacts/tables/09_final_research_scorecard.csv",
+      "size_bytes": 323,
+      "sha256": "b45ac140ae12e0845d2131476bda37d12f524aa2e26586de2beb7bc6db4bdd2e"
+    },
+    {
+      "path": "artifacts/tables/09_integrated_profitability_hac_stability_summary.csv",
+      "size_bytes": 1563,
+      "sha256": "a70c7a97827d3b865282430915ee37d6b6b235f61dabe7eaf9be43fee3e7c446"
+    },
+    {
+      "path": "artifacts/tables/09_rqalpha_forced_exit_relative_comparison.csv",
+      "size_bytes": 337,
+      "sha256": "392f764509578d7782b9150bcec40eacd137be00744488048e99e67d9e0837ef"
+    },
+    {
+      "path": "artifacts/tables/09_rqalpha_forced_exit_sensitivity_performance.csv",
+      "size_bytes": 992,
+      "sha256": "1576441dca6a14d934eb2f6770b07b09473ec20fd8ba96adee2999a9b3bcd25b"
+    },
+    {
+      "path": "artifacts/tables/09_rqalpha_oos_q5_calendar_year_performance.csv",
+      "size_bytes": 365,
+      "sha256": "57e2953c33f2bfb2fed024c36af41cffcbd88d5929921d3c34d1dae63bfd6912"
+    },
+    {
+      "path": "artifacts/tables/09_rqalpha_oos_q5_execution_diagnostics.csv",
+      "size_bytes": 527,
+      "sha256": "232ba6d25e095cf784b03cec1c713151ecfcc84c9772b7737558acec43a13523"
+    },
+    {
+      "path": "artifacts/tables/09_rqalpha_oos_q5_max_drawdown_episode.csv",
+      "size_bytes": 568,
+      "sha256": "bcdb4de59935b16ff7906195a198ffdf326af66cde43c97f1c2aec1a85768379"
+    },
+    {
+      "path": "artifacts/tables/09_rqalpha_oos_q5_monthly_execution.csv",
+      "size_bytes": 3261,
+      "sha256": "f2577b43824168cb66345c2137acbeabc15fd8420b9209e4fe3b0899507cad78"
+    },
+    {
+      "path": "artifacts/tables/09_rqalpha_oos_q5_monthly_performance.csv",
+      "size_bytes": 3133,
+      "sha256": "4a85f5c7ff5152865c42ca6909883fcc40fa94f37bfb4a5089ec9f86f515647e"
+    },
+    {
+      "path": "artifacts/tables/10_final_report_core_evidence.csv",
+      "size_bytes": 1028,
+      "sha256": "0d521c47c7034ceb35e37b029029f6b0cbbb6ef20a73c752af43dd30f0a4f9ff"
+    },
+    {
+      "path": "artifacts/tables/10_final_report_strategy_comparison.csv",
+      "size_bytes": 830,
+      "sha256": "31ec29888d595b26f8ec6eb61ae6192f2420175638707f1ebf915a48521a768c"
+    },
+    {
+      "path": "docs/05_final_research_summary.md",
+      "size_bytes": 8415,
+      "sha256": "dcbbc74008475a9b538d4a409ef37bd934924fa450c24cb8748a34fca6be9594"
+    },
+    {
+      "path": "docs/09_RESEARCH_PROTOCOL.md",
+      "size_bytes": 5139,
+      "sha256": "da58a93c97d843c7331fe48c6ba78571042265c76febaf8e80b33c4df8093ee2"
+    },
+    {
+      "path": "docs/10_FINAL_RESEARCH_REPORT.md",
+      "size_bytes": 7415,
+      "sha256": "b55bdcde8a2fd911d6ffa870d793070087e39fe9193ebceeca0112577c8ec91c"
+    },
+    {
+      "path": "lib/profitability_diagnostics.py",
+      "size_bytes": 33489,
+      "sha256": "3e7dd2aea8f3d7e0304b82ce5206d7362ce099e5b94d43991f19a5ac1453ed00"
+    },
+    {
+      "path": "lib/profitability_research_utils.py",
+      "size_bytes": 33318,
+      "sha256": "9e0fc352b80d9f6cace9e5208f9bbfc14401c7eb2212b82ce8104287c5f4088c"
+    },
+    {
+      "path": "lib/research_statistics.py",
+      "size_bytes": 2703,
+      "sha256": "83ee8638440c86e9559cb3dd3331fe99384154966ee138212ba1f0a243186dc5"
+    },
+    {
+      "path": "lib/ricequant_data_utils.py",
+      "size_bytes": 3122,
+      "sha256": "395d0d991699da102bd017e4310381f868038f2e437a7d75847e060e328fd7fc"
+    },
+    {
+      "path": "lib/rqalpha_strategy_utils.py",
+      "size_bytes": 6148,
+      "sha256": "f9d650c25d149b1c76e3f921723930e99f706fd5445f1e68374696e6b47b7036"
+    },
+    {
+      "path": "lib/strategy_core.py",
+      "size_bytes": 31831,
+      "sha256": "705cc17e2ee4e3bdab94a98f82ce0b25d1206d36314e5a357d16709fc9aba3f9"
+    },
+    {
+      "path": "notebooks/00_project_bootstrap.ipynb",
+      "size_bytes": 47287,
+      "sha256": "b5dd41a4cc05ef67c5c140303c638b12d97f6427ff2f0083c3aeb73ab5063bc0"
+    },
+    {
+      "path": "notebooks/01_stable_roe.ipynb",
+      "size_bytes": 133217,
+      "sha256": "ed1b4b02d0383e2b6daa1c88c1819834ae21af4cfd3dcbc1717c375fc5ab2ca8"
+    },
+    {
+      "path": "notebooks/03_roic_fcffic.ipynb",
+      "size_bytes": 103879,
+      "sha256": "775b527bf13b75bd05e44b751863271aff764a38cfbbcb6be568a4261a08c277"
+    },
+    {
+      "path": "notebooks/04_report_core_field_audit.ipynb",
+      "size_bytes": 25768,
+      "sha256": "da64a07898bd01efea482986b0cd66b0d3428ed5dbe4e372f6eba57ea2b4b59f"
+    },
+    {
+      "path": "notebooks/05_roa_roic_ronoa_ttm.ipynb",
+      "size_bytes": 306162,
+      "sha256": "1258710b127fc7b8af8f4bd4193a45b323756e186325aed788577be6815ad89f"
+    },
+    {
+      "path": "notebooks/06_strategy_validation.ipynb",
+      "size_bytes": 130087,
+      "sha256": "8a14106f13377c017127ce49071781c938f6f3c15e5ff7f5d1a5edd426710f59"
+    },
+    {
+      "path": "notebooks/07_rqalpha_strategy_backtest.ipynb",
+      "size_bytes": 50240,
+      "sha256": "21c47b8ef3c3b7ba70926c8953c803e1530591315475a568faaba2c7ee8803f6"
+    },
+    {
+      "path": "notebooks/08_rqalpha_strategy_comparison.ipynb",
+      "size_bytes": 22990,
+      "sha256": "f71f7914ca0a00e237290360b482362dc95fa52728f0f913f06eb0ecac776295"
+    },
+    {
+      "path": "notebooks/09_research_robustness_and_closure.ipynb",
+      "size_bytes": 70330,
+      "sha256": "57f7d815e9cd1e61d10cb84929fd1d3bfa9abc7581df3f92c8b9e41ebd1babba"
+    },
+    {
+      "path": "notebooks/10_final_research_report.ipynb",
+      "size_bytes": 24222,
+      "sha256": "ed8050653a36ba4fff38920e78781dc49952c044b258e009bae95358646b0eaf"
+    }
+  ]
+}

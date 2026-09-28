@@ -1,0 +1,2 @@
+﻿factor_name,period,observations,mean_paired_stock_count,mean_rank_ic,rank_icir_annualized,positive_rank_ic_ratio,mean_high_minus_low_return,high_minus_low_t_stat,decision,decision_scope,decision_reason
+integrated_profitability_structure_proxy_strict,out_of_sample_2023_2025,36,268.55555555555554,0.0036856675472267,0.1233357404353012,0.5833333333333334,0.0010918854750028,0.213214475337716,candidate_not_confirmed,low_coverage_structural_sensitivity_only,样本外 RankIC 与 Q5-Q1 为正，但稳定性或显著性尚未达到预设确认门槛。

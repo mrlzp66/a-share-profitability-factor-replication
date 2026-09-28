@@ -1,0 +1,12 @@
+{
+  "factor": "integrated_profitability_structure_proxy_strict",
+  "monthly_return_horizon": "T_plus_1_open_to_T_plus_21_open",
+  "hac_max_lags": 1,
+  "reason_for_hac": "月度信号的 20 个交易日收益窗口存在相邻月份重叠，因此对均值检验使用 HAC 标准误。",
+  "out_of_sample_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "no_parameter_optimization": true
+}

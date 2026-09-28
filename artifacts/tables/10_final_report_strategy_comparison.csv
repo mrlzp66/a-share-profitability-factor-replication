@@ -1,0 +1,4 @@
+portfolio,original_rqalpha_total_return,original_rqalpha_annualized_return,original_rqalpha_sharpe_ratio,original_rqalpha_information_ratio,original_rqalpha_max_drawdown,forced_exit_final_total_return,post_exit_tail_return,final_market_value,fully_liquidated_at_forced_exit_end,post_exit_trade_record_count,post_exit_transaction_cost
+Equal_weight_eligible_universe,0.2848898696469308,0.0901303385882703,0.4270088280072762,0.6885615681510586,0.2568473720555823,0.283479,-0.0010981484796364,0.0,True,10,6808.661599999999
+Q1_factor_low,0.2310757902190026,0.0741913460647121,0.3268681264004691,0.234260659545817,0.2991576401372825,0.231076,0.0,0.0,True,0,0.0
+Q5_factor_high,0.2801220243236018,0.0887360480694756,0.4202599757912764,0.5820883142494717,0.2439786558838944,0.2800629999999999,-4.6089357108147766e-05,0.0,True,3,10875.0031

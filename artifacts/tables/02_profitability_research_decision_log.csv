@@ -1,0 +1,5 @@
+﻿factor_variant,period,observations,mean_rank_ic,rank_icir_annualized,positive_rank_ic_ratio,mean_high_minus_low_return,high_minus_low_t_stat,high_minus_low_p_value,decision,research_interpretation,next_action
+roe_ttm_baseline,out_of_sample_2023_2025,36,-0.0100807653452561,-0.3275365829678588,0.4444444444444444,-0.0050704764003134,-1.0819972633320265,0.2866524061228874,reject_as_standalone_factor,样本外 RankIC 和高低组收益均为负，不能作为独立因子。,仅保留为基准比较，不进入后续因子库。
+delevered_roe,out_of_sample_2023_2025,36,-0.0086711988832956,-0.2856577874436843,0.4444444444444444,-0.0028617355140718,-0.6451075133561937,0.5230640731580769,reject_as_standalone_factor,样本外 RankIC 和高低组收益均为负，不能作为独立因子。,仅保留为基准比较，不进入后续因子库。
+negative_roe_volatility,out_of_sample_2023_2025,36,0.0333691599332369,1.4212080915403096,0.6666666666666666,0.006234167813007,1.4961716742119022,0.1435726849703056,candidate_not_confirmed,样本外方向为正，但统计证据不足，不能称为独立 Alpha。,保留为盈利能力因子库候选，与 ROIC、FCFFIC 共同检验；不再调节回看期参数。
+stable_delevered_roe,out_of_sample_2023_2025,36,0.0112487370903027,0.4191981288355645,0.5833333333333334,0.0003353689399917,0.0792218559124377,0.937307388750888,not_a_standalone_factor,样本外 RankIC 偏弱，高低组收益接近于零。,仅保留作成分归因，不单独构建策略。

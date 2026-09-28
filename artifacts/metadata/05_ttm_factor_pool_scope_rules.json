@@ -1,0 +1,26 @@
+{
+  "purpose": "重构 ROA/ROIC 与米筐参考字段一致性诊断，并冻结 TTM 因子池。",
+  "coverage_source": "/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/05_ttm_raw_factor_construction_coverage.csv",
+  "minimum_pair_stocks_for_correlation": 100,
+  "main_ttm_candidates": [
+    "roa_reconstructed_strict",
+    "roic_reconstructed_strict",
+    "fcffic_reconstructed_strict"
+  ],
+  "reference_benchmarks": [
+    "roa_vendor_reference",
+    "roic_vendor_reference"
+  ],
+  "sensitivity_only": [
+    "ronoa_core_strict"
+  ],
+  "excluded_from_main_pool": [
+    "ronoa_extended_strict"
+  ],
+  "restrictions": [
+    "不将缺失财务字段填充为零。",
+    "RONOA 扩展口径因联合字段覆盖率不足而停用。",
+    "FCFFIC 在有效性检验前必须执行研报行业剔除。",
+    "本范围决定不使用未来收益和样本外表现。"
+  ]
+}

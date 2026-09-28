@@ -1,0 +1,3 @@
+comparison,relative_return_at_original_end_date,relative_return_at_forced_exit_end,relative_return_change_during_exit_tail
+Q5_factor_high_vs_Q1_factor_low,0.04117107189955904,0.041123084994215464,-4.608935710825879e-05
+Q5_factor_high_vs_Equal_weight_eligible_universe,-0.0014108024089303228,-0.00035907257843215135,0.0010532157097586925

@@ -1,0 +1,135 @@
+{
+  "project_dir": "/home/rice/notebook/a-share-profitability-factor-replication",
+  "purpose": "Audit RQFactor inputs for report-core factor replication.",
+  "test_ids": [
+    "600519.XSHG",
+    "000333.XSHE",
+    "600900.XSHG",
+    "601012.XSHG"
+  ],
+  "test_window": {
+    "start": "2025-06-03",
+    "end": "2025-06-10"
+  },
+  "raw_stock_level_values_saved": false,
+  "catalog_access_note": "This RiceQuant environment does not expose get_all_factor_names. Candidate fields were tested directly.",
+  "factor_readiness": [
+    {
+      "factor_key": "stable_roe_quarterly",
+      "factor_name": "稳定 ROE（单季度）",
+      "report_chapter": "第2章",
+      "method": "candidate_name_audit",
+      "formula": "zscore(单季度ROE) + zscore(-std(过去12期单季度ROE))，等权合成",
+      "required_component_count": 12,
+      "ready_required_component_count": 0,
+      "optional_component_count": 0,
+      "ready_optional_component_count": 0,
+      "readiness_pct": 0.0,
+      "readiness_status": "blocked_missing_required_inputs"
+    },
+    {
+      "factor_key": "stable_roe_ttm",
+      "factor_name": "稳定 ROE（TTM）",
+      "report_chapter": "第2章",
+      "method": "direct_inputs",
+      "formula": "zscore(ROE_TTM) + zscore(-std(过去9期ROE_TTM))，等权合成",
+      "required_component_count": 9,
+      "ready_required_component_count": 9,
+      "optional_component_count": 0,
+      "ready_optional_component_count": 0,
+      "readiness_pct": 100.0,
+      "readiness_status": "inputs_ready"
+    },
+    {
+      "factor_key": "roa_ttm_reconstructed",
+      "factor_name": "ROA（TTM，重构）",
+      "report_chapter": "第3章",
+      "method": "transparent_reconstruction",
+      "formula": "归母净利润TTM / 总资产MRQ",
+      "required_component_count": 2,
+      "ready_required_component_count": 2,
+      "optional_component_count": 0,
+      "ready_optional_component_count": 0,
+      "readiness_pct": 100.0,
+      "readiness_status": "inputs_ready"
+    },
+    {
+      "factor_key": "roa_ttm_vendor_reference",
+      "factor_name": "ROA（TTM，供应商字段核验）",
+      "report_chapter": "第3章",
+      "method": "vendor_reference",
+      "formula": "仅用于与重构 ROA 交叉核验，不视为报告口径已复现",
+      "required_component_count": 1,
+      "ready_required_component_count": 1,
+      "optional_component_count": 0,
+      "ready_optional_component_count": 0,
+      "readiness_pct": 100.0,
+      "readiness_status": "vendor_field_available_not_formula_verified"
+    },
+    {
+      "factor_key": "roic_ttm_reconstructed",
+      "factor_name": "ROIC（TTM，报告口径重构）",
+      "report_chapter": "第4章",
+      "method": "transparent_reconstruction",
+      "formula": "NOPLAT / (权益 + 有息负债 - 现金及等价物)",
+      "required_component_count": 5,
+      "ready_required_component_count": 5,
+      "optional_component_count": 0,
+      "ready_optional_component_count": 0,
+      "readiness_pct": 100.0,
+      "readiness_status": "inputs_ready"
+    },
+    {
+      "factor_key": "roic_ttm_vendor_reference",
+      "factor_name": "ROIC（TTM，供应商字段核验）",
+      "report_chapter": "第4章",
+      "method": "vendor_reference",
+      "formula": "仅用于与重构 ROIC 交叉核验，不视为报告口径已复现",
+      "required_component_count": 1,
+      "ready_required_component_count": 1,
+      "optional_component_count": 0,
+      "ready_optional_component_count": 0,
+      "readiness_pct": 100.0,
+      "readiness_status": "vendor_field_available_not_formula_verified"
+    },
+    {
+      "factor_key": "ronoa_ttm_reconstructed",
+      "factor_name": "RONOA（TTM，重构）",
+      "report_chapter": "第5章",
+      "method": "transparent_reconstruction",
+      "formula": "(营业利润 + 财务费用 - 投资收益 - 公允价值变动收益) / (权益 + 有息负债 - 金融性资产)",
+      "required_component_count": 7,
+      "ready_required_component_count": 7,
+      "optional_component_count": 5,
+      "ready_optional_component_count": 2,
+      "readiness_pct": 100.0,
+      "readiness_status": "inputs_ready_proxy_only"
+    },
+    {
+      "factor_key": "fcffic_quarterly_reconstructed",
+      "factor_name": "FCFFIC（单季度，待审计）",
+      "report_chapter": "第6章",
+      "method": "candidate_name_audit",
+      "formula": "(经营现金流 - 资本开支) / (权益 + 有息负债 - 现金及等价物)",
+      "required_component_count": 5,
+      "ready_required_component_count": 4,
+      "optional_component_count": 0,
+      "ready_optional_component_count": 0,
+      "readiness_pct": 80.0,
+      "readiness_status": "blocked_missing_required_inputs"
+    },
+    {
+      "factor_key": "fcffic_ttm_reconstructed",
+      "factor_name": "FCFFIC（TTM，重构）",
+      "report_chapter": "第6章",
+      "method": "transparent_reconstruction",
+      "formula": "(经营现金流 - 资本开支) / (权益 + 有息负债 - 现金及等价物)",
+      "required_component_count": 5,
+      "ready_required_component_count": 5,
+      "optional_component_count": 0,
+      "ready_optional_component_count": 0,
+      "readiness_pct": 100.0,
+      "readiness_status": "inputs_ready"
+    }
+  ]
+}

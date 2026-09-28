@@ -1,0 +1,19 @@
+{
+  "factor_name": "integrated_profitability_structure_proxy_strict",
+  "fixed_component_weights": {
+    "stable_delevered_roe": 0.25,
+    "stable_roic_proxy": 0.25,
+    "stable_ronoa_proxy": 0.25,
+    "fcffic_reconstructed": 0.25
+  },
+  "component_missing_value_rule": "All four components must be available; no stock-level imputation is allowed.",
+  "post_combination_treatment": "MAD winsorization, CITIC 2019 level-1 industry neutralization, log-market-cap neutralization, z-score.",
+  "return_label": "T+1 open to T+21 open, 20 trading-day holding return.",
+  "minimum_stocks_for_factor_test": 100,
+  "first_available_date": "2019-08-30",
+  "last_available_date": "2025-12-31",
+  "in_sample_period": "2019-08-30 to 2022-12-31",
+  "out_of_sample_period": "2023-01-01 to 2025-12-31",
+  "anti_overfitting_rule": "No component weights, components, or out-of-sample dates are changed after observing results.",
+  "individual_stock_level_data_saved_to_artifacts": false
+}

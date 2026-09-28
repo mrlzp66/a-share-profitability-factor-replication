@@ -1,0 +1,10 @@
+{
+  "selected_industry_source": "citics_2019",
+  "industry_level": "first level",
+  "industry_field": "first_industry_name",
+  "historical_query_rule": "For every monthly signal date T, query industry classification using date=T; no future label is used.",
+  "market_cap_field": "market_cap_3",
+  "market_cap_transform": "log(market_cap_3), non-positive values treated as missing",
+  "raw_vendor_industry_panel_saved_to_repository": false,
+  "previous_internal_change_log_method": "rejected due to incomplete historical coverage"
+}

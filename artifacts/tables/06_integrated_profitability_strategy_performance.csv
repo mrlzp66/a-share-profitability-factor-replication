@@ -1,0 +1,2 @@
+﻿observations,initial_value,final_value,total_return,annualized_return,annualized_volatility,sharpe_ratio,max_drawdown,benchmark_total_return,benchmark_annualized_return,annualized_excess_return,information_ratio
+1557,100000000.0,159329332.14842495,0.5932933214842495,0.07830472033865643,0.18358687816658947,0.5028546759332322,-0.30177395387314143,0.30777799985588006,0.044385896941232295,0.033918823397424136,0.37553962433931426

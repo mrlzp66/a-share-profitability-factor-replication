@@ -1,0 +1,10 @@
+﻿factor_key,factor_name,report_chapter,method,formula,required_component_count,ready_required_component_count,optional_component_count,ready_optional_component_count,readiness_pct,readiness_status
+stable_roe_quarterly,稳定 ROE（单季度）,第2章,candidate_name_audit,zscore(单季度ROE) + zscore(-std(过去12期单季度ROE))，等权合成,12,0,0,0,0.0,blocked_missing_required_inputs
+stable_roe_ttm,稳定 ROE（TTM）,第2章,direct_inputs,zscore(ROE_TTM) + zscore(-std(过去9期ROE_TTM))，等权合成,9,9,0,0,100.0,inputs_ready
+roa_ttm_reconstructed,ROA（TTM，重构）,第3章,transparent_reconstruction,归母净利润TTM / 总资产MRQ,2,2,0,0,100.0,inputs_ready
+roa_ttm_vendor_reference,ROA（TTM，供应商字段核验）,第3章,vendor_reference,仅用于与重构 ROA 交叉核验，不视为报告口径已复现,1,1,0,0,100.0,vendor_field_available_not_formula_verified
+roic_ttm_reconstructed,ROIC（TTM，报告口径重构）,第4章,transparent_reconstruction,NOPLAT / (权益 + 有息负债 - 现金及等价物),5,5,0,0,100.0,inputs_ready
+roic_ttm_vendor_reference,ROIC（TTM，供应商字段核验）,第4章,vendor_reference,仅用于与重构 ROIC 交叉核验，不视为报告口径已复现,1,1,0,0,100.0,vendor_field_available_not_formula_verified
+ronoa_ttm_reconstructed,RONOA（TTM，重构）,第5章,transparent_reconstruction,(营业利润 + 财务费用 - 投资收益 - 公允价值变动收益) / (权益 + 有息负债 - 金融性资产),7,7,5,2,100.0,inputs_ready_proxy_only
+fcffic_quarterly_reconstructed,FCFFIC（单季度，待审计）,第6章,candidate_name_audit,(经营现金流 - 资本开支) / (权益 + 有息负债 - 现金及等价物),5,4,0,0,80.0,blocked_missing_required_inputs
+fcffic_ttm_reconstructed,FCFFIC（TTM，重构）,第6章,transparent_reconstruction,(经营现金流 - 资本开支) / (权益 + 有息负债 - 现金及等价物),5,5,0,0,100.0,inputs_ready

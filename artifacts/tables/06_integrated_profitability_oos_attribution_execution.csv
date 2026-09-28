@@ -1,0 +1,4 @@
+﻿portfolio,event_rebalance_count,total_transaction_cost,transaction_cost_pct_initial_cash,total_unfilled_buy_notional,mean_gross_market_exposure,open_mark_fallback_count,close_mark_fallback_count
+Q5,64,2220559.2899305504,0.022205592899305505,0.0,0.954025416297015,0,0
+Q1_long_control,64,2380306.2073010406,0.023803062073010407,0.0,0.954570101057587,0,0
+equal_weight_eligible_universe,64,2143190.5441153725,0.021431905441153726,0.0,0.951834429531039,0,0

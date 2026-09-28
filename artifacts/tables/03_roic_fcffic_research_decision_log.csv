@@ -1,0 +1,3 @@
+﻿factor_name,period,observations,mean_rank_ic,rank_icir_annualized,positive_rank_ic_ratio,mean_high_minus_low_return,high_minus_low_t_stat,high_minus_low_p_value,decision,research_interpretation,next_action
+roic,out_of_sample_2023_2025,36,-0.0125034053457111,-0.4467444615161302,0.4444444444444444,-0.0063115609688063,-1.335001169840425,0.1904950242379673,reject_as_standalone_factor,样本外 RankIC 为负，高低组收益也为负，说明该直接 ROIC 实现不具备稳定预测能力。,仅保留为研报复现中的比较基准，不进入后续盈利能力因子库。
+fcffic_reconstructed,out_of_sample_2023_2025,36,0.0252401919909291,1.0378721884915496,0.6388888888888888,0.0011144240360095,0.3061102656748403,0.7613342030451868,candidate_not_confirmed,样本外 RankIC 维持正值，正 RankIC 月份占比较高；但高低组收益尚不显著，不能直接宣称为可交易 Alpha。,保留为盈利能力因子库候选，并与盈利稳定性组件进行独立、预先设定规则的组合研究。

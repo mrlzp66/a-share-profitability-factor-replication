@@ -1,0 +1,7 @@
+﻿factor_name,component_role,period,observations,average_valid_stocks,min_valid_stocks,mean_ic,icir_annualized,mean_rank_ic,rank_icir_annualized,rank_ic_t_stat,rank_ic_p_value,positive_rank_ic_ratio,mean_q1_return,mean_q5_return,mean_high_minus_low_return,high_minus_low_t_stat,high_minus_low_p_value
+stable_roic_ttm_proxy,report_component_proxy,all_available_periods,96,486.96875,373,0.001782,0.098431,0.011544,0.562242,1.590262,0.115098,0.552083,0.0077,0.007358,-0.000342,-0.162426,0.871315
+stable_roic_ttm_proxy,report_component_proxy,in_sample_2016_2022,60,474.7,373,0.006799,0.436689,0.018527,1.001142,2.238621,0.028966,0.6,0.008697,0.009205,0.000508,0.20161,0.840915
+stable_roic_ttm_proxy,report_component_proxy,out_of_sample_2023_2025,36,507.416667,488,-0.006578,-0.302811,-9.5e-05,-0.004045,-0.007006,0.99445,0.472222,0.006038,0.004279,-0.001759,-0.468036,0.64266
+stable_ronoa_ttm_proxy,low_coverage_sensitivity_only,all_available_periods,84,221.690476,100,0.004438,0.188726,0.015691,0.654385,1.731341,0.087107,0.630952,0.008597,0.009805,0.001208,0.471167,0.638758
+stable_ronoa_ttm_proxy,low_coverage_sensitivity_only,in_sample_2016_2022,48,173.958333,100,0.006916,0.310195,0.026179,1.240696,2.481392,0.01672,0.708333,0.010058,0.010166,0.000108,0.035832,0.971568
+stable_ronoa_ttm_proxy,low_coverage_sensitivity_only,out_of_sample_2023_2025,36,285.333333,265,0.001133,0.044722,0.001708,0.062946,0.109025,0.913805,0.527778,0.00665,0.009323,0.002673,0.599912,0.55243

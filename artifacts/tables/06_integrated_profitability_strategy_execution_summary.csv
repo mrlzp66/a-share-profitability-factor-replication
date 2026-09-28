@@ -1,0 +1,2 @@
+﻿event_rebalance_count,total_buy_notional,total_sell_notional,total_transaction_cost,transaction_cost_pct_initial_cash,total_unfilled_buy_notional,open_mark_fallback_count,close_mark_fallback_count,mean_gross_market_exposure
+141,5523664508.086013,5588011147.033216,6127874.054522144,0.061278740545221436,619450.0415659554,0,0,0.9246814845172807

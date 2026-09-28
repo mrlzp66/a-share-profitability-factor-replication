@@ -1,0 +1,14 @@
+{
+  "index_code": "000906.XSHG",
+  "index_name": "CSI 800",
+  "research_period": {
+    "start_date": "2016-01-04",
+    "end_date": "2025-12-31"
+  },
+  "signal_frequency": "monthly last trading day",
+  "new_stock_rule": "Exclude stocks that have been listed for fewer than 252 trading days at signal date T.",
+  "st_rule": "Exclude stocks that are ST at signal date T.",
+  "suspension_rule": "Exclude stocks suspended at signal date T.",
+  "future_execution_filter": "T+1 tradability, limit-up and other execution constraints are not used in research-stage factor testing.",
+  "raw_membership_mask_saved_to_repository": false
+}

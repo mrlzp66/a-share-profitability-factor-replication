@@ -1,0 +1,12 @@
+{
+  "factor_name": "ronoa_core_strict_sensitivity",
+  "formula_status": "Strict core proxy using only observed fields; no missing input is imputed as zero.",
+  "main_pool_eligibility": "No. This is determined before return testing because the strict factor coverage is insufficient for the main pool.",
+  "common_treatment": "MAD winsorization, CITIC 2019 first-level industry neutralization, log-market-cap neutralization, z-score.",
+  "return_label": "forward_return_20d",
+  "sample_split": {
+    "in_sample": "2016-2022",
+    "out_of_sample": "2023-2025"
+  },
+  "raw_factor_or_stock_level_return_saved_to_repository": false
+}

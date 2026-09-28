@@ -1,0 +1,10 @@
+{
+  "decision_period": "2023-01-01 to 2025-12-31",
+  "decision_rule": {
+    "reject_as_standalone_factor": "Out-of-sample mean RankIC <= 0 OR mean Q5-Q1 return <= 0.",
+    "candidate_not_confirmed": "Both directions are positive, but at least one of RankIC and Q5-Q1 does not pass the 5% significance threshold.",
+    "confirmed_standalone_candidate": "Both directions are positive, both p-values < 0.05, and positive RankIC ratio >= 55%."
+  },
+  "important_restriction": "The decision log does not alter factor definitions, parameters or future composite weights.",
+  "reference_factor_rule": "Vendor ROA and vendor ROIC are reference benchmarks and are not directly eligible for the future composite."
+}

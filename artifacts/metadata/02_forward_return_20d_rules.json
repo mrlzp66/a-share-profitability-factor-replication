@@ -1,0 +1,17 @@
+{
+  "return_name": "forward_return_20d",
+  "entry_rule": "Buy at the open of the first trading day after signal date T",
+  "exit_rule": "Sell at the open of the 21st trading day after signal date T",
+  "holding_intervals": 20,
+  "price_field": "open",
+  "price_adjustment": "pre-adjusted",
+  "signal_timing_rule": "The factor is constructed only from information available at signal date T. Future price is label data only.",
+  "execution_constraints_included": false,
+  "execution_constraint_note": "Suspension, limit-up and tradability constraints will be introduced in the later strategy backtest, not in this first IC label.",
+  "raw_price_or_return_panel_saved_to_repository": false,
+  "coverage_metric_note": {
+    "forward_return_valid_all_stock_list": "Valid price labels across the full historical union of CSI 800 constituents.",
+    "forward_return_valid_in_research_universe": "Valid price labels among stocks in the signal-date research universe.",
+    "factor_return_paired": "Stocks with both a final factor value and a valid future return label."
+  }
+}

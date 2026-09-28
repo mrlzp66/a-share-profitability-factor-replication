@@ -1,0 +1,6 @@
+{
+  "return_schedule_source": "02_return_schedule.csv",
+  "return_definition": "Entry at T+1 open; exit at T+21 open; 20 trading-day holding interval.",
+  "price_field": "pre-adjusted open price",
+  "raw_price_or_stock_level_return_saved_to_repository": false
+}

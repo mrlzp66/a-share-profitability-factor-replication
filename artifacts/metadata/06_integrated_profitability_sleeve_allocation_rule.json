@@ -1,0 +1,26 @@
+[
+  {
+    "rule_name":"active_sleeve_aggregation",
+    "rule_value":"equal_weight_across_active_sleeves"
+  },
+  {
+    "rule_name":"gross_exposure_when_active",
+    "rule_value":1.0
+  },
+  {
+    "rule_name":"leverage",
+    "rule_value":"not_allowed"
+  },
+  {
+    "rule_name":"cash_when_no_active_sleeve",
+    "rule_value":1.0
+  },
+  {
+    "rule_name":"maximum_observed_active_sleeves",
+    "rule_value":2
+  },
+  {
+    "rule_name":"execution_price",
+    "rule_value":"open_price_on_event_date"
+  }
+]

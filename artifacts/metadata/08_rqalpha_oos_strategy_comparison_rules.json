@@ -1,0 +1,18 @@
+{
+  "engine": "rqalpha_plus",
+  "scope": "out_of_sample_2023_2025_signals_with_final_exit",
+  "comparison_portfolios": [
+    "Q5_factor_high",
+    "Q1_factor_low",
+    "Equal_weight_eligible_universe"
+  ],
+  "common_execution_settings": {
+    "benchmark": "000906.XSHG",
+    "matching_type": "current_bar",
+    "price_limit": true,
+    "volume_limit": true,
+    "volume_percent": 0.05,
+    "minimum_commission": 5.0
+  },
+  "decision_rule": "Q5 必须同时相对 Q1 与等权可投资券池呈现稳定增益，才可确认增量选股 Alpha。"
+}

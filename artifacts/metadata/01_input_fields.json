@@ -1,0 +1,14 @@
+{
+  "roe_ttm_baseline": "return_on_equity_ttm",
+  "roe_ttm_lag_0": "return_on_equity_weighted_average_ttm_0",
+  "roe_ttm_lag_1": "return_on_equity_weighted_average_ttm_1",
+  "roe_ttm_lag_2": "return_on_equity_weighted_average_ttm_2",
+  "roe_ttm_lag_3": "return_on_equity_weighted_average_ttm_3",
+  "roe_ttm_lag_4": "return_on_equity_weighted_average_ttm_4",
+  "roe_ttm_lag_5": "return_on_equity_weighted_average_ttm_5",
+  "roe_ttm_lag_6": "return_on_equity_weighted_average_ttm_6",
+  "roe_ttm_lag_7": "return_on_equity_weighted_average_ttm_7",
+  "roe_ttm_lag_8": "return_on_equity_weighted_average_ttm_8",
+  "total_assets_mrq": "total_assets_mrq_0",
+  "total_equity_mrq": "total_equity_mrq_0"
+}

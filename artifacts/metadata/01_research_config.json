@@ -1,0 +1,11 @@
+{
+  "universe": "CSI 800",
+  "index_id": "000906.XSHG",
+  "start_date": "2016-01-04",
+  "end_date": "2025-12-31",
+  "design_period": "2016-01-04 至 2022-12-31",
+  "out_of_sample_period": "2023-01-01 至 2025-12-31",
+  "signal_timing": "T日收盘后形成",
+  "execution_timing": "T+1日开盘",
+  "forward_return_days": 20
+}

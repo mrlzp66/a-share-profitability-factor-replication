@@ -1,0 +1,8 @@
+﻿factor_name,role,decision,reason,mean_coverage_pct,min_coverage_pct,mean_valid_stock_count,min_valid_stock_count
+roa_reconstructed_strict,main_ttm_candidate,enter_neutralization_and_return_test,严格重构 ROA 覆盖率充足。,99.97,98.09,779.5,726
+roa_vendor_reference,reference_benchmark,test_in_parallel_but_not_used_in_composite,仅用于比较米筐直接字段与重构口径，不与重构版本混用。,99.97,98.09,779.5,726
+roic_reconstructed_strict,main_ttm_candidate,enter_neutralization_and_return_test,按 NOPLAT / Invested Capital 重构，覆盖率足以支持检验。,87.4,79.32,680.7,629
+roic_vendor_reference,reference_benchmark,test_in_parallel_but_not_used_in_composite,仅用于诊断米筐直接 ROIC 与重构公式的差异。,91.15,88.55,710.4,681
+ronoa_core_strict,low_coverage_sensitivity_only,do_not_enter_main_pool,严格口径覆盖率偏低，仅可作附录敏感性分析。,41.47,22.92,325.7,170
+ronoa_extended_strict,unavailable,exclude,扩展金融资产字段无法同时满足，覆盖率近乎为零。,0.02,0.0,0.1,0
+fcffic_reconstructed_strict,main_ttm_candidate_after_industry_exclusion,enter_neutralization_after_report_industry_exclusion,严格重构覆盖率充足；后续先按研报排除指定行业。,96.37,88.9,750.9,705

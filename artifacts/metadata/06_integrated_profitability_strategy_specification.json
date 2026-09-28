@@ -1,0 +1,23 @@
+{
+  "strategy_name": "integrated_profitability_structure_proxy_q5_long_only",
+  "factor_source": "05_integrated_profitability_structure_proxy.pkl",
+  "factor_definition": "固定四组件各 25%：稳定去杠杆 ROE、稳定 ROIC 代理、稳定 RONOA 代理、重构 FCFFIC；组合后行业和对数市值中性化。",
+  "strategy_scope": "低覆盖率研报结构代理的执行可行性检验，不是事后挑选 FCFFIC 或盈利稳定性的新组合。",
+  "universe": "动态中证 800",
+  "benchmark_index": "000906.XSHG",
+  "portfolio_rule": "每期选择因子最高 20% 股票，等权做多",
+  "signal_frequency": "月度信号",
+  "execution_rule": "信号日后首个交易日开盘调仓",
+  "holding_rule": "持有 20 个交易日，按预先保存的收益标签时间表执行",
+  "short_leg": "同时报告理论 Q5-Q1 作为因子诊断；不将其称为可直接执行的 A 股做空策略。",
+  "initial_cash": 100000000,
+  "cash_interest_yield_annual": 0.02,
+  "teacher_cost_assumption": {
+    "buy_cost": 0.0003,
+    "sell_cost": 0.0008,
+    "minimum_fee": 5,
+    "explanation": "对应老师框架：买入过户费等加佣金 0.03%，卖出额外包含 0.05% 印花税，总计 0.08%。"
+  },
+  "out_of_sample_period": "2023-01-01 至 2025-12-31",
+  "anti_overfitting_rule": "不得根据回测结果修改组件、权重、分组阈值、交易成本或样本外时间范围。"
+}

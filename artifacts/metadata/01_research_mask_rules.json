@@ -1,0 +1,9 @@
+{
+  "signal_frequency": "每月最后一个交易日",
+  "universe": "中证800动态成分股",
+  "new_stock_rule": "上市满252个交易日",
+  "st_rule": "仅剔除T日ST股票",
+  "suspension_rule": "仅剔除T日停牌股票",
+  "future_information_rule": "不使用T+1涨停、停牌、ST信息",
+  "execution_note": "T+1能否成交只在最终策略回测层处理"
+}

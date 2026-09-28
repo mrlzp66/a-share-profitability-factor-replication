@@ -1,0 +1,26 @@
+# Local research data and restart caches
+data/
+cache/
+
+# Jupyter temporary state
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Private configuration and credentials
+.env
+.env.*
+*.key
+*.pem
+*token*
+*secret*
+*credential*
+
+# Local backtest exports and binary payloads
+*.pkl
+
+# Local release staging
+release/

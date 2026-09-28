@@ -1,0 +1,4 @@
+﻿comparison,finding,decision
+Q5_vs_Q1,Q5 的 RQAlpha 表现优于 Q1。,positive_rank_ordering_evidence
+Q5_vs_equal_weight_eligible_universe,Q5 未稳定超过等权可投资券池。,no_incremental_selection_alpha_confirmed
+overall,综合盈利结构代理保留为研究候选，但不能作为已确认的独立可交易 Alpha。,candidate_not_confirmed

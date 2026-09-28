@@ -1,0 +1,16 @@
+{
+  "factors": {
+    "roic": "Direct RQFactor ROIC, cleaned and neutralized.",
+    "fcffic_reconstructed": "Reconstructed CFO minus capex divided by invested capital, with factor-specific financial and real-estate exclusions."
+  },
+  "return_label": "T+1 open to T+21 open, representing a 20 trading-day holding interval.",
+  "grouping": "Equal-count quintiles. Q1 is lowest factor, Q5 is highest factor.",
+  "high_minus_low": "Q5 gross return minus Q1 gross return.",
+  "sample_split": {
+    "in_sample": "2016-2022",
+    "out_of_sample": "2023-2025"
+  },
+  "transaction_costs_included": false,
+  "execution_constraints_included": false,
+  "raw_factor_or_stock_level_return_saved_to_repository": false
+}

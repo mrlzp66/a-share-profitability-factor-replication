@@ -1,0 +1,2 @@
+﻿signal_period_count,first_signal_date,last_signal_date,entry_before_or_equal_signal_count,exit_before_or_equal_entry_count,overlap_period_count,same_open_rebalance_count,cash_gap_period_count,calendar_date_not_found_count,mean_holding_trading_intervals,min_holding_trading_intervals,max_holding_trading_intervals,expected_holding_intervals,holding_interval_mismatch_count
+77,2019-08-30,2025-12-31,0,0,23,13,40,0,20.0,20,20,20,0

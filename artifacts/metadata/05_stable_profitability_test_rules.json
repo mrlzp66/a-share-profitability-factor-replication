@@ -1,0 +1,10 @@
+{
+  "stable_roic_role": "report_component_proxy",
+  "stable_ronoa_role": "low_coverage_sensitivity_only",
+  "stability_formula": "0.5 * zscore(current raw factor) + 0.5 * zscore(negative 9-quarter-spaced TTM volatility)",
+  "stability_timing_proxy": "Three monthly signal intervals approximate one quarter.",
+  "common_treatment": "MAD winsorization, CITIC 2019 first-level industry neutralization, log-market-cap neutralization, z-score.",
+  "return_label": "forward_return_20d",
+  "ronoa_restriction": "Stable RONOA is not eligible for the main composite because the underlying strict RONOA data coverage was insufficient.",
+  "raw_factor_or_stock_level_return_saved_to_repository": false
+}

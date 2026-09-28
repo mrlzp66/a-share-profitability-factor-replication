@@ -1,0 +1,11 @@
+{
+  "final_research_decision": "candidate_not_confirmed",
+  "confirmation_conditions": {
+    "oos_rank_ic_hac_significant": false,
+    "oos_high_minus_low_hac_significant": false,
+    "q5_outperforms_equal_weight_after_forced_exit": false,
+    "all_portfolios_fully_liquidated": true
+  },
+  "decision_rule": "只有 RankIC 与 Q5-Q1 的样本外 HAC 检验均显著、Q5 强制清仓后超过等权可投资券池、且全部组合完成清仓，才确认增量选股 Alpha。",
+  "freeze_rule": "不使用 2023-2025 样本外结果调整组件权重、覆盖率门槛、持有期、股票池或交易规则。"
+}

@@ -1,0 +1,27 @@
+﻿input_name,component_name,candidate_rank,rqfactor_field,query_success,research_valid_observations,research_total_observations,research_coverage,query_result
+market_cap,总市值,1,market_cap_3,True,93566,93567,1.0,available
+roa_vendor,供应商 ROA TTM,1,return_on_asset_ttm,True,93540,93567,0.9997,available
+net_profit_ttm,归母净利润 TTM,1,net_profit_parent_company_ttm_0,True,93540,93567,0.9997,available
+total_assets_mrq,总资产 MRQ,1,total_assets_mrq_0,True,93566,93567,1.0,available
+roic_vendor,供应商 ROIC TTM,1,return_on_invested_capital_ttm,True,85245,93567,0.9111,available
+ebit_ttm,EBIT TTM,1,ebit_ttm_0,True,82386,93567,0.8805,available
+ebit_ttm,EBIT TTM,2,ebit_ttm,True,93540,93567,0.9997,available
+ebit_ttm,EBIT TTM,3,ebit,True,82421,93567,0.8809,available
+income_tax_ttm,所得税费用 TTM,1,income_tax_ttm_0,True,93060,93567,0.9946,available
+total_profit_ttm,利润总额 TTM,1,total_profit_ttm_0,False,0,93567,0.0,query_error: 'NoneType' object is not subscriptable
+total_profit_ttm,利润总额 TTM,2,profit_before_tax_ttm_0,True,93540,93567,0.9997,available
+total_equity_mrq,总权益 MRQ,1,total_equity_mrq_0,True,93566,93567,1.0,available
+interest_bearing_debt,有息负债,1,interest_bearing_debt,True,90698,93567,0.9693,available
+cash_equivalent,现金及现金等价物,1,cash_equivalent,True,93566,93567,1.0,available
+operating_profit_ttm,营业利润 TTM,1,profit_from_operation_ttm_0,True,93540,93567,0.9997,available
+financial_expense_ttm,财务费用 TTM,1,financial_expenseTTM,True,82375,93567,0.8804,available
+financial_expense_ttm,财务费用 TTM,2,financial_expense_ttm_0,False,0,93567,0.0,query_error: 'NoneType' object is not subscriptable
+investment_income_ttm,投资收益 TTM,1,investment_income_ttm_0,True,87296,93567,0.933,available
+fair_value_change_ttm,公允价值变动收益 TTM,1,fair_value_change_income_ttm_0,True,50042,93567,0.5348,available
+fixed_deposits_mrq,定期存款 MRQ,1,fixed_deposits_mrq_0,True,654,93567,0.007,available
+trading_financial_assets_mrq,交易性金融资产 MRQ,1,financial_asset_held_for_trading_mrq_0,True,55591,93567,0.5941,available
+available_for_sale_assets_mrq,可供出售金融资产 MRQ,1,financial_asset_available_for_sale_mrq_0,True,25806,93567,0.2758,available
+hold_to_maturity_assets_mrq,持有至到期投资 MRQ,1,financial_asset_hold_to_maturity_mrq_0,True,3348,93567,0.0358,available
+dividend_receivable_mrq,应收股利 MRQ,1,dividend_receivable_mrq_0,True,20317,93567,0.2171,available
+cfo_ttm,经营活动现金流 TTM,1,cash_flow_from_operating_activities_ttm_0,True,93540,93567,0.9997,available
+capex_ttm,资本开支 TTM,1,cash_paid_for_asset_ttm_0,True,93396,93567,0.9982,available

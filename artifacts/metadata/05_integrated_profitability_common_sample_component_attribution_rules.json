@@ -1,0 +1,18 @@
+{
+  "purpose": "Explain the fixed four-component integrated profitability proxy on its strict common sample; not factor selection.",
+  "common_sample_definition": "Research-universe stock-date with all four components available simultaneously.",
+  "comparison_treatment": "Each component is re-neutralized within the common sample to remove conditional industry and market-cap exposure.",
+  "fixed_component_weights": {
+    "stable_delevered_roe": 0.25,
+    "stable_roic_proxy": 0.25,
+    "stable_ronoa_proxy": 0.25,
+    "fcffic_reconstructed": 0.25
+  },
+  "prohibited_follow_up": [
+    "No component removal",
+    "No weight optimization",
+    "No sample-out-of-sample date selection",
+    "No conversion of a component diagnostic into a new factor"
+  ],
+  "individual_stock_level_data_saved_to_artifacts": false
+}

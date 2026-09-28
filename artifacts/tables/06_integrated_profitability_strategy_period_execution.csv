@@ -1,0 +1,4 @@
+﻿period,signal_period_count,event_rebalance_count,total_transaction_cost,transaction_cost_pct_initial_cash,total_unfilled_buy_notional,mean_gross_market_exposure,max_active_sleeves
+full_available_2019_2025_signals,77,141,6127874.054522144,0.061278740545221436,619450.0415659554,0.9246814845172807,2
+in_sample_available_2019_2022,41,77,3667530.634403689,0.03667530634403689,619450.0415659554,0.9467359619833243,2
+out_of_sample_signal_2023_2025,36,64,2220559.2899305504,0.022205592899305505,0.0,0.954025416297015,2

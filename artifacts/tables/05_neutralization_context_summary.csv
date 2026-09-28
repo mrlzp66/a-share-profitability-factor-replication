@@ -1,0 +1,11 @@
+﻿metric,mean,min,max
+research_stock_count,779.725,726.0,800.0
+market_cap_valid_count,779.7167,726.0,800.0
+industry_valid_count,779.7167,726.0,800.0
+fcffic_industry_excluded_count,111.525,87.0,131.0
+fcffic_industry_allowed_count,668.1917,627.0,698.0
+roa_reconstructed_strict_raw_valid_count,779.5,726.0,800.0
+roa_vendor_reference_raw_valid_count,779.5,726.0,800.0
+roic_reconstructed_strict_raw_valid_count,680.6917,629.0,722.0
+roic_vendor_reference_raw_valid_count,710.375,681.0,727.0
+fcffic_reconstructed_strict_raw_valid_count,640.0917,606.0,668.0

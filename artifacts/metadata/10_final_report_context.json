@@ -1,0 +1,8 @@
+{
+  "report_scope": "frozen_research_results_only",
+  "final_research_decision": "candidate_not_confirmed",
+  "core_evidence_file": "/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/10_final_report_core_evidence.csv",
+  "strategy_comparison_file": "/home/rice/notebook/a-share-profitability-factor-replication/artifacts/tables/10_final_report_strategy_comparison.csv",
+  "source_protocol": "/home/rice/notebook/a-share-profitability-factor-replication/docs/09_RESEARCH_PROTOCOL.md",
+  "no_post_oos_optimization": true
+}

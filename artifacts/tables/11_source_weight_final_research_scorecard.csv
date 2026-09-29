@@ -1,0 +1,9 @@
+﻿metric,value
+oos_rank_ic_mean,0.0113633268220737
+oos_rank_ic_hac_p_value,0.4795888959176401
+oos_q5_minus_q1_mean_return,0.0036418656876565
+oos_q5_minus_q1_hac_p_value,0.4299743754809018
+q5_vs_q1_relative_return_after_forced_exit,0.13576962979624452
+q5_vs_equal_weight_relative_return_after_forced_exit,0.06195768666451129
+all_portfolios_fully_liquidated,True
+final_research_decision,candidate_not_confirmed

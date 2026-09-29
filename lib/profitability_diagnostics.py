@@ -55,7 +55,7 @@ def run_common_sample_component_attribution(
     在综合因子的严格共同可用样本中，对全部组件进行归因诊断。
 
     这是解释性诊断，而非因子筛选或权重优化：
-    - 四组件与 25% 固定权重不变；
+    - 四个底层子因子与 25% 固定权重不变；
     - 不删除任何组件；
     - 不改变样本外区间；
     - 不根据诊断结果构造新组合。
@@ -119,7 +119,7 @@ def run_common_sample_component_attribution(
 
     if set(component_panels.keys()) != set(expected_components):
         raise RuntimeError(
-            "四组件缓存不完整，请重新运行 05.13.0。"
+            "四个底层子因子的缓存不完整，请重新运行 05.13.0。"
         )
 
     if "final_factor" not in composite_payload:
@@ -168,7 +168,7 @@ def run_common_sample_component_attribution(
         for name in expected_components
     }
 
-    # 共同样本 = 研究券池内且全部四组件有效。
+    # 共同样本 = 研究券池内且全部四个底层子因子有效。
     common_sample_mask = research_mask.copy()
 
     for component_panel in aligned_components.values():
@@ -595,7 +595,7 @@ def run_profitability_research_synthesis(
         },
         {
             "source_id": "integrated_report_structure",
-            "source_label": "基于研报四个底层因子的等权透明实现",
+            "source_label": "基于研报四个底层子因子的等权合成对照版本",
             "filename": "05_integrated_profitability_effectiveness_summary.csv",
             "factor_columns": ["factor_name"],
             "research_scope": "low_coverage_structural_sensitivity",
@@ -780,7 +780,7 @@ def run_profitability_research_synthesis(
         "stable_roic_ttm_proxy": "稳定 ROIC 代理",
         "stable_ronoa_ttm_proxy": "稳定 RONOA 代理",
         "integrated_profitability_structure_proxy_strict": (
-            "综合盈利因子等权透明实现"
+            "综合盈利因子等权合成对照版本"
         ),
     }
 
@@ -791,7 +791,7 @@ def run_profitability_research_synthesis(
         "stable_roic_ttm_proxy": "研报稳定 ROIC 组件代理",
         "stable_ronoa_ttm_proxy": "低覆盖率 RONOA 敏感性组件",
         "integrated_profitability_structure_proxy_strict": (
-            "低覆盖率等权透明实现"
+            "低覆盖率等权合成对照版本"
         ),
     }
 
@@ -977,8 +977,8 @@ def run_profitability_research_synthesis(
             "## 重要限制",
             "",
             "- 重构 FCFFIC、盈利稳定性及综合盈利代理均未达到独立 Alpha 的确认标准；",
-            "- 稳定 RONOA 与四组件综合盈利代理受限于较低覆盖率，应仅作为结构复现或敏感性证据；",
-            "- 共同样本组件归因仅用于解释固定四组件结构，不可用于事后删组件或优化权重；",
+            "- 稳定 RONOA 与四个底层子因子的等权合成对照版本受限于较低覆盖率，应仅作为权重敏感性对照或辅助证据；",
+            "- 共同样本归因仅用于解释固定权重结构，不可用于事后删减底层子因子或优化权重；",
             "- 当前结果未纳入交易成本、涨跌停、停牌和组合执行约束。",
             "",
             "## 样本外证据表",

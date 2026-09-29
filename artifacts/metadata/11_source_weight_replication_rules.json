@@ -1,0 +1,43 @@
+{
+  "experiment": "source_weight_composite_profitability_factor_replication",
+  "factor_name": "composite_profitability_factor_source_weight_proxy",
+  "research_boundary": "An extension replication run after the original equal-weight out-of-sample results were observed. It reuses the project reconstruction/proxy inputs and is not asserted to be a full raw-field Wind replication.",
+  "source_two_stage_formula": {
+    "profit_statement_aggregate": "(stable_delevered_roe + stable_roic_proxy + stable_ronoa_proxy) / 3",
+    "composite_profitability_factor": "0.5 * profit_statement_aggregate + 0.5 * fcffic_reconstructed"
+  },
+  "expanded_component_weights": {
+    "stable_delevered_roe": 0.16666666666666666,
+    "stable_roic_proxy": 0.16666666666666666,
+    "stable_ronoa_proxy": 0.16666666666666666,
+    "fcffic_reconstructed": 0.5
+  },
+  "comparison_version_component_weights": {
+    "stable_delevered_roe": 0.25,
+    "stable_roic_proxy": 0.25,
+    "stable_ronoa_proxy": 0.25,
+    "fcffic_reconstructed": 0.25
+  },
+  "component_missing_value_rule": "strict intersection; no stock-level imputation",
+  "post_combination_treatment": "Preserve the existing one-pass combined-factor treatment: MAD winsorization, CITIC 2019 level-1 industry and log-market-cap neutralization, then z-score. No additional processing step is introduced relative to the comparison version.",
+  "return_label": "T+1 open to T+21 open; 20 trading-day holding return",
+  "oos_signal_period": "2023-01-01 to 2025-12-31",
+  "rqalpha_execution": {
+    "initial_cash": 100000000,
+    "benchmark": "000906.XSHG",
+    "matching_type": "current_bar",
+    "minimum_commission": 5.0,
+    "stock_commission_multiplier": 0.375,
+    "tax_multiplier": 1.0,
+    "price_limit": true,
+    "volume_limit": true,
+    "volume_percent": 0.05
+  },
+  "public_export_excludes": [
+    "raw market data",
+    "cache",
+    "individual-stock target weights",
+    "pkl",
+    "credentials"
+  ]
+}

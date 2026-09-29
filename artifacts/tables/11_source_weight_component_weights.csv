@@ -1,0 +1,5 @@
+﻿component_key,report_term,source_weight,source_weight_pct,equal_weight_comparator
+stable_delevered_roe,线性剥离杠杆后稳定的 ROE,0.16666666666666666,16.666666666666664,0.25
+stable_roic_proxy,稳定的 ROIC（项目代理）,0.16666666666666666,16.666666666666664,0.25
+stable_ronoa_proxy,稳定的 RONOA（项目代理）,0.16666666666666666,16.666666666666664,0.25
+fcffic_reconstructed,FCFFIC（项目重构）,0.5,50.0,0.25

@@ -1,0 +1,5 @@
+﻿evidence,finding,decision_implication
+严格样本外 RankIC HAC 检验,"RankIC=0.011363, HAC p=0.4796",未通过预设的方向与 5% 显著性联合标准
+严格样本外 Q5-Q1 HAC 检验,"Q5-Q1=0.003642, HAC p=0.4300",未通过预设的方向与 5% 显著性联合标准
+RQAlpha 强制清仓后 Q5 相对等权可投资股票池,相对收益=6.1958%,通过
+最终研究状态,candidate_not_confirmed,本次为样本外结果已被观察后的权重口径扩展复现，不作为首次确认性样本外检验。

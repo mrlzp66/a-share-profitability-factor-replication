@@ -862,7 +862,7 @@ def run_integrated_profitability_factor_test(
         },
     }
 
-    print("===== 综合盈利因子等权透明实现有效性汇总 =====")
+    print("===== 综合盈利因子等权合成对照版本有效性汇总 =====")
     print(effectiveness_summary.round(4).to_string(index=False))
     print()
     print("可检验首日：", first_available_date.strftime("%Y-%m-%d"))

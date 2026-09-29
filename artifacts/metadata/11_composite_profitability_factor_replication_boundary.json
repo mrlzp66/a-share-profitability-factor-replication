@@ -26,7 +26,7 @@
     }
   },
   "current_project_implementation": {
-    "public_label": "基于研报四个底层因子的等权透明实现",
+    "public_label": "研报四个底层因子的等权合成对照版本",
     "internal_factor_id": "integrated_profitability_structure_proxy_strict",
     "component_weights": {
       "stable_delevered_roe": 0.25,

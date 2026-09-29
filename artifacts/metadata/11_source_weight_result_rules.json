@@ -1,0 +1,13 @@
+{
+  "relative_return_method": "direct ratio of aligned daily unit-net-value series, final ratio divided by initial ratio minus one",
+  "forced_exit": "20 actual exchange trading days of zero targets appended after the original final target date",
+  "liquidation_assertion": "final market value must be zero within 1e-6 for all three portfolios",
+  "decision_rule": {
+    "rank_ic": "strict OOS mean > 0 and HAC p < 0.05",
+    "q5_minus_q1": "strict OOS mean > 0 and HAC p < 0.05",
+    "incremental_selection": "forced-exit Q5 relative return vs equal-weight eligible universe > 0",
+    "status_if_all_pass": "independent_alpha_supported",
+    "status_otherwise": "candidate_not_confirmed"
+  },
+  "research_interpretation": "weight-specification extension after earlier OOS results were observed; not a first confirmatory OOS test"
+}

@@ -1,0 +1,4 @@
+﻿portfolio,original_backtest_end_date,forced_exit_backtest_end_date,original_total_return_from_daily_nav,total_return_at_original_end_from_daily_nav,forced_exit_final_total_return_from_daily_nav,post_exit_tail_return,final_market_value,final_cash,fully_liquidated_at_forced_exit_end,post_exit_trade_record_count,post_exit_filled_notional,post_exit_transaction_cost
+Q5_factor_high,2026-02-02,2026-03-10,0.34669138704300817,0.34669138704300817,0.3473642278581861,0.0004996250972209015,0.0,135969815.1836,True,4,11448610.0,14883.193000000001
+Q1_factor_low,2026-02-02,2026-03-10,0.18856355923406443,0.18856355923406443,0.18630063043673828,-0.0019039190455950594,0.0,119996812.2075,True,2,4790030.0,6227.039
+Equal_weight_eligible_universe,2026-02-02,2026-03-10,0.27014991029107205,0.27014991029107205,0.2687550970981756,-0.0010981484796364072,0.0,128347896.3031,True,10,5237432.0,6808.661599999999

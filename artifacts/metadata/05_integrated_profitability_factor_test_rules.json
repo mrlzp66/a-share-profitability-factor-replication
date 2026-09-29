@@ -1,6 +1,6 @@
 {
   "factor_name": "integrated_profitability_structure_proxy_strict",
-  "implementation_label": "基于研报四个底层因子的等权透明实现；不是研报原始两层权重公式",
+  "implementation_label": "研报四个底层因子的等权合成对照版本；不是研报原始两层权重公式",
   "fixed_component_weights": {
     "stable_delevered_roe": 0.25,
     "stable_roic_proxy": 0.25,
